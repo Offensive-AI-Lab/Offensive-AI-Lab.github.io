@@ -53,6 +53,14 @@ window.mobileCheck = function() {
           .restart();
     });
 
+  svg.on("touchmove", function() {
+      var p1 = d3.mouse(this);
+      root.fx = p1[0];
+      root.fy = p1[1];
+      simulation
+          .alphaTarget(0.3)
+          .restart();
+    });
   function ticked() {
       svg.selectAll("circle")
           .attr("cx", d => d.x)
