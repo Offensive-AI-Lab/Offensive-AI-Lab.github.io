@@ -17,7 +17,7 @@ minima:
   # generate social links in footer
   social_links:
     #twitter: jekyllrb
-    github:  https://github.com/Offensive-AI-Lab
+    github: Offensive-AI-Lab
     # devto: jekyll
     # dribbble: jekyll
     # facebook: jekyll
