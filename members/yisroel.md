@@ -3,9 +3,7 @@ layout: page
 permalink: /yisroel.mirsky/
 ---
 
-
-
-## Dr. Yisroel Mirsky
+### Dr. Yisroel Mirsky
 
 ![image]({{site.baseurl}}/assets/members/yisroel.mirsky.png){: style="float: left; margin-right:10px" width="250px"} 
 
