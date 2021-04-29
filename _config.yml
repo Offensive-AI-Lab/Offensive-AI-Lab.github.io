@@ -1,7 +1,7 @@
 title: Offensive AI Lab
 author:
-  name: ymirsky
-  email: yisroel(at)post.bgu.ac.il
+  name: Offensive AI Research Lab
+  email: Offensive.AI.Lab@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   We investigate how adversaries are using and abusing AI to perform malicious tasks (deepfakes, defense evasion, attack automation, and so on). Our goal is to identify and prevent these emerging threats before they become mainstream.
 

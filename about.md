@@ -20,7 +20,7 @@ To counter the threat of offensive AI, we need to anticipate the adversary's nex
 
 ## Our Lab
 
-![image]({{site.baseurl}}/assets/images/gavyam.jpg){: style="float: left; margin-right:10px" width="330px"} 
+![image]({{site.baseurl}}/assets/images/gavyam.jpg){: style="float: left; margin-right:10px" width="350px"} 
 
 The `Offensive AI Research Lab` was founded in 2020 with the goal of producing research which can help the world prepare for the emergence of offensive AI. Instead of just 'patching' the problem, we are working on ways to give the defender the upper hand by putting the adversary at a disadvantage.  We are a friendly group of researchers and hackers who have a passion for AI and cyber security. We strongly believe that AI should never be used to cause physical, financial, or psychological harm. However, we understand that cyber criminals do not hold by the same code of ethics as we do. Therefore, it is our mission to identify, counter, and mitigate the threat of offensive AI to help protect society.
 
