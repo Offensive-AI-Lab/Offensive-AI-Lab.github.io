@@ -39,9 +39,12 @@ We would like to thank the various organizations who have supported our research
 
 We would also like to acknowledge our research partners from around the globe!
 
-- Prof. Battista Biggio, [PRLab](https://pralab.diee.unica.it/en), *University of Cagliari*
-- Ram Shankar, [Azure Security](https://cyber.harvard.edu/people/ram-shankar-siva-kumar), *Microsoft*
-- Prof. Wenke Lee, [IISP](https://cyber.gatech.edu/), *Georgia Institute of Technology* 
-- Prof. Xiangyu Zhang, *Purdue University*
-- Prof. Yang Liu, [CYSREN](https://www.ntu.edu.sg/cysren), *NTU*
+- `Prof. Battista Biggio`, [PRLab](https://pralab.diee.unica.it/en), *University of Cagliari*, Italy
+- `Prof. Benjamin Rubinstein` *University of Melbourne*, Australia
+- `Ram Shankar`, [Azure Security](https://cyber.harvard.edu/people/ram-shankar-siva-kumar), *Microsoft*, United States
+- `Prof. Wenke Lee`, [IISP](https://cyber.gatech.edu/), *Georgia Institute of Technology*, United States
+- `Prof. Xiangyu Zhang`, *Purdue University*, United States
+- `Prof. Yang Liu`, [CYSREN](https://www.ntu.edu.sg/cysren), *NTU*, Singapore
+
+If your are missing from the list, please let us know.
 
