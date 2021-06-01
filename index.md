@@ -21,7 +21,11 @@ The `Offensive AI Research Lab` (OAR) studies how adversaries use AI to enhance 
 
 ## Our Supporters
 
-We would like to thank the various organizations who have supported our research by funding projects in our lab:
+This lab has been funded in partnership with the Zuckerman STEM Leadership Program
+
+![image tooltip here](/assets/logos/zuckerman.png)
+
+We would also like to thank the various organizations who have supported our research by funding projects in our lab:
 
 
 

@@ -24,12 +24,16 @@ permalink: /members/
             </p>
 			</p>
         </div>
-		<div style="flex-grow: 1;">
+        <div style="flex-grow: 1;">
             <p align="center"> 
+                 <a href="{{site.baseurl}}/moshe.levy/">
                 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/moshe.levy.jpg" > 
-				<p align="center"> Moshe Levy </p>
+                </a>
+				<p align="center"> 
+                <a href="{{site.baseurl}}/moshe.levy/" style="text-decoration: none">Moshe Levy</a>
             </p>
-		</div>
+			</p>
+        </div>
 </div>
 
 
