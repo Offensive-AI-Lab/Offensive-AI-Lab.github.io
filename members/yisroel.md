@@ -7,7 +7,7 @@ permalink: /yisroel.mirsky/
 
 ![image]({{site.baseurl}}/assets/members/yisroel.mirsky.png){: style="float: left; margin-right:10px" width="250px"} 
 
-`Yisroel Mirsky` is a tenure-track lecturer in the Department of Software and Information Systems Engineering at Ben-Gurion University. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include deepfakes, adversarial machine learning, anomaly detection, and intrusion detection. Dr. Mirsky has published his work in some of the best security venues: USENIX, CCS, NDSS, Euro S&P, Black Hat, DEF CON, RSA, CSF, AISec, etc. His research has also been featured in many well-known media outlets: *Popular Science, Scientific American, Wired, The Wall Street Journal, Forbes*, and BBC. Some of his works, include the exposure of vulnerabilities in the US 911 emergency services and research into the threat of deepfakes in medical scans, both featured in *The Washington Post*.
+`Yisroel Mirsky` is a tenure-track lecturer and Zuckerman Faculty Scholar in the Department of Software and Information Systems Engineering at Ben-Gurion University. He received his Ph.D. from BGU in 2018 and was a postdoctoral fellow for two years in the at the Georgia Institute of Technology in the research labs of Prof. Wenke Lee. His main research interests include deepfakes, adversarial machine learning, anomaly detection, and intrusion detection. Dr. Mirsky has published his work in some of the best security venues: USENIX, CCS, NDSS, Euro S&P, Black Hat, DEF CON, RSA, CSF, AISec, etc. His research has also been featured in many well-known media outlets: *Popular Science, Scientific American, Wired, The Wall Street Journal, Forbes*, and BBC. Some of his works, include the exposure of vulnerabilities in the US 911 emergency services and research into the threat of deepfakes in medical scans, both featured in *The Washington Post*.
 
 [Personal website](https://ymirsky.github.io/)
 
@@ -48,7 +48,7 @@ Over the years, I have been awarded a number of grants  from a wide variety of i
 Below is a list of selected publications. For an up-to-date list of publications, please see my [Google Scholar](https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&hl=en). 
 
 - [DeepReflect: Discovering Malicious Functionality through Binary Reconstruction](https://www.usenix.org/system/files/sec21fall-downing.pdf) Evan Downing, Yisroel Mirsky, Kyuhong Park, and Wenke Lee.
-  USENIX Security Symposium, 2021. `Rank A`
+  USENIX Security Symposium, 2021. `Rank A*`
 - [Attacking Tesla Model Xs Autopilot Using Compromised Advertisement](https://www.ndss-symposium.org/wp-content/uploads/autosec2021_23004_paper.pdf) Ben Nassi, Yisroel Mirsky, Dudi Nassi, Raz Ben-Netanel, Oleg Drokin, and Yuval Elovici. Workshop on Automotive and Autonomous Vehicle Security (AutoSec), 2021. Co-located with NDSS.
 - [The Creation and Detection of Deepfakes: A Survey](https://dl.acm.org/doi/pdf/10.1145/3425780)  Yisroel Mirsky, and Wenke Lee. ACM, ACM Computing Surveys (CSUR), 2020. `IF 7.99, 4/108, Q1` 
 - [The Security of IP-based Video Surveillance Systems](https://www.mdpi.com/1424-8220/20/17/4806/pdf) Yisroel Mirsky, Naor Kalbo, Asaf Shabtai, and Yuval Elovici. MDPI, Sensors, 2020. `IF 3.28, 33/539, Q1`
