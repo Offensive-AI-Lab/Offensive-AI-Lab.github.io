@@ -24,6 +24,8 @@ permalink: /members/
             </p>
 			</p>
         </div>
+
+
         <div style="flex-grow: 1;">
             <p align="center"> 
                  <a href="{{site.baseurl}}/moshe.levy/">
@@ -34,8 +36,17 @@ permalink: /members/
             </p>
 			</p>
         </div>
+
+        <div style="flex-grow: 1;">
+            <p align="center"> 
+                 <a href="{{site.baseurl}}/shmulik.froimovich/">
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shmulik.froimovich.jpg" > 
+                </a>
+				<p align="center"> 
+                <a href="{{site.baseurl}}/shmulik.froimovich/" style="text-decoration: none">Moshe Levy</a>
+            </p>
+			</p>
+        </div>
 </div>
-
-
 We are actively recruiting excellent students pursuing  an M.Sc. or Ph.D. We are also looking for talented post-docs to join our team! For details, please see our [About page]({{site.baseurl}}/about).
 
