@@ -43,7 +43,7 @@ permalink: /members/
                 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shmulik.froimovich.jpg" > 
                 </a>
 				<p align="center"> 
-                <a href="{{site.baseurl}}/shmulik.froimovich/" style="text-decoration: none">Moshe Levy</a>
+                <a href="{{site.baseurl}}/shmulik.froimovich/" style="text-decoration: none">Shmulik Froimovich</a>
             </p>
 			</p>
         </div>
