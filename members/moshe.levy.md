@@ -3,7 +3,7 @@ layout: page
 permalink: /moshe.levy/
 ---
 
- Moshe Levy</font>
+ <font size="5">Moshe Levy</font>
 
 ![image]({{site.baseurl}}/assets/members/moshe.levy.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

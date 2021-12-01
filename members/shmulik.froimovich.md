@@ -3,7 +3,7 @@ layout: page
 permalink: /shmulik.froimovich/
 ---
 
- Moshe Levy</font>
+ <font size="5">Shmulik Froimovich</font>
 
 ![image]({{site.baseurl}}/assets/members/shmulik.froimovich.jpg){: style="float: left; margin-right:10px" width="250px"} 
 
