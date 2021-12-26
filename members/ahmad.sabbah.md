@@ -3,7 +3,7 @@ layout: page
 permalink: /ahmad.sabbah/
 ---
 
- <font size="5">Shmulik Froimovich</font>
+ <font size="5">Ahmad Sabbah</font>
 
 ![image]({{site.baseurl}}/assets/members/ahmad.sabbah.jpeg){: style="float: left; margin-right:10px" width="250px"} 
 
