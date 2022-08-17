@@ -35,6 +35,7 @@ We would also like to thank the various organizations who have supported our res
   <img src="{{site.baseurl}}/assets/logos/MoE.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/IIA.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
+   <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
 </p>
 
 <p>&nbsp;</p>
