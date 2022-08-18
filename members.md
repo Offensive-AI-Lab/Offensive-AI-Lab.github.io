@@ -86,7 +86,6 @@ permalink: /members/
         </div>
     
     </div>
-    <div class="container" style="display: flex;">
 
        <div style="flex-grow: 1;">
             <p align="center"> 
@@ -97,7 +96,7 @@ permalink: /members/
                 <a href="{{site.baseurl}}/members/" style="text-decoration: none">Roey Bokobza</a>
             </p>
     		</p>
-        </div>
+       
 </div>
 
 
