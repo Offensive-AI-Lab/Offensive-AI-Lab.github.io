@@ -49,7 +49,9 @@ permalink: /members/
             </p>
     		</p>
         </div>
-    
+</div>
+<div class="container" style="display: flex;">
+
         <div style="flex-grow: 1;">
             <p align="center"> 
                  <a href="{{site.baseurl}}/guy.frankovitz/">
@@ -77,21 +79,24 @@ permalink: /members/
                 <a href="{{site.baseurl}}/bar.avraham/">
                 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/bar.avraham.jpg" > 
                 </a>
-				<p align="center"> 
+    			<p align="center"> 
                 <a href="{{site.baseurl}}/bar.avraham/" style="text-decoration: none">Bar Avraham</a>
             </p>
-			</p>
+    		</p>
         </div>
-        
+    
+    </div>
+    <div class="container" style="display: flex;">
+
        <div style="flex-grow: 1;">
             <p align="center"> 
                 <a href="{{site.baseurl}}/members/">
                 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
                 </a>
-				<p align="center"> 
+    			<p align="center"> 
                 <a href="{{site.baseurl}}/members/" style="text-decoration: none">Roey Bokobza</a>
             </p>
-			</p>
+    		</p>
         </div>
 </div>
 
@@ -134,13 +139,13 @@ permalink: /members/
     <a href="{{site.baseurl}}/lior.yasur/"
        style="text-decoration: none"> Lior Yasur </a></p> </p> 
        </div>
-       
+
         <div style="flex-grow: 1;">
-		<p align="center">
+    	<p align="center">
         <a href="{{site.baseurl}}/fred.grabovski/">
-		<img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovski.jpg"> 
-		</a>
-		<p align="center">
+    	<img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovski.jpg"> 
+    	</a>
+    	<p align="center">
     <a href="{{site.baseurl}}/fred.grabovski/"
        style="text-decoration: none"> Fred Grabovski </a></p> </p> 
        </div>
@@ -149,10 +154,10 @@ permalink: /members/
                 <a href="{{site.baseurl}}/tapdig.maharramli/">
                 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/tapdig.maharramli.jpg" > 
                 </a>
-				<p align="center"> 
+    			<p align="center"> 
                 <a href="{{site.baseurl}}/tapdig.maharramli/" style="text-decoration: none">Tapdig Maharramli</a>
             </p>
-			</p>
+    		</p>
         </div>
 </div>
 
