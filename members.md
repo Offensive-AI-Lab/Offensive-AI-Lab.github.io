@@ -87,15 +87,11 @@ permalink: /members/
     
     </div>
 
-       <div style="flex-grow: 1;">
-            <p align="center"> 
-                <a href="{{site.baseurl}}/members/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
-                </a>
-    			<p align="center"> 
-                <a href="{{site.baseurl}}/members/" style="text-decoration: none">Roey Bokobza</a>
-            </p>
-    		</p>
+<p align="center">   <a href="{{site.baseurl}}/members/">
+<img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png"> 
+</a><p align="center">
+    <a href="{{site.baseurl}}/members/"
+       style="text-decoration: none"> Roey Bakobza </a></p> </p> 
        
 </div>
 
