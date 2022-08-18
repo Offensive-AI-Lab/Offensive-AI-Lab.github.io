@@ -87,13 +87,16 @@ permalink: /members/
     
     </div>
 
+<div class="container" style="display: flex;">
+        <div style="flex-grow: 1;">
 <p align="center">   <a href="{{site.baseurl}}/members/">
 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png"> 
 </a><p align="center">
     <a href="{{site.baseurl}}/members/"
        style="text-decoration: none"> Roey Bakobza </a></p> </p> 
+ </div></div>
        
-</div>
+
 
 
 <center> <h3>Researchers</h3> </center>
