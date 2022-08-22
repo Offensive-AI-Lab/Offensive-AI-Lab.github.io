@@ -89,13 +89,14 @@ permalink: /members/
 
 <div class="container" style="display: flex;">
         <div style="flex-grow: 1;">
-<p align="center">   <a href="{{site.baseurl}}/members/">
-<img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png"> 
+<p align="center">   <a href="{{site.baseurl}}/roey.bokobza/">
+<img width="200" height="auto" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg"> 
 </a><p align="center">
-    <a href="{{site.baseurl}}/members/"
-       style="text-decoration: none"> Roey Bakobza </a></p> </p> 
+    <a href="{{site.baseurl}}/roey.bokobza/"
+       style="text-decoration: none"> Roey Bokobza </a></p> </p> 
  </div></div>
-       
+
+​       
 
 
 
@@ -105,7 +106,7 @@ permalink: /members/
         <div style="flex-grow: 1;">
             <p align="center"> 
                  <a href="{{site.baseurl}}/sanket.badhe/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/sanket.badhe.jpeg" > 
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/sanket.badhe.jpg" > 
                 </a>
 				<p align="center"> 
                 <a href="{{site.baseurl}}/sanket.badhe/" style="text-decoration: none">Sanket Badhe</a>
