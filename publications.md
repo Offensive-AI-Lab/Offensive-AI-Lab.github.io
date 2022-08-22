@@ -17,7 +17,7 @@ Our work is making a significant impact on research, polices, and public opinion
   <a href="https://www.washingtonpost.com/technology/2019/04/03/hospital-viruses-fake-cancerous-nodes-ct-scans-created-by-malware-trick-radiologists/"><img src="{{site.baseurl}}/assets/logos/wp.png" width="100" style="margin: 15px;"/></a>
   <a href="https://www.forbes.com/sites/daveywinder/2019/04/05/malware-removes-cancer-tumors-from-ct-scans-and-fools-radiologists/"><img src="{{site.baseurl}}/assets/logos/forbes.png" width="120" style="margin: 15px;"/></a>
 <a href="https://techcrunch.com/2020/01/10/medical-images-exposed-pacs/"><img src="{{site.baseurl}}/assets/logos/tc2.png" width="80" style="margin: 15px;"/></a>
- <a href="https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio"><img src="{{site.baseurl}}/assets/logos/protocol.png" width="80" style="margin: 15px;"/></a>
+ <a href="https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio"><img src="{{site.baseurl}}/assets/logos/protocol.png" width="140" style="margin: 15px;"/></a>
 </p>
 
 
