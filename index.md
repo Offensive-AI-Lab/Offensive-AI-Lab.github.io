@@ -53,3 +53,6 @@ We would also like to acknowledge our research partners from around the globe!
 
 If your are missing from the list, please let us know.
 
+
+
+<iframe src="https://discord.com/widget?id=1013392970290045011&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
