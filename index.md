@@ -53,7 +53,7 @@ We would also like to acknowledge our research partners from around the globe!
 
 If your are missing from the list, please let us know.
 
-
+<p>&nbsp;</p>
 
 ## Join Our Community!
 
