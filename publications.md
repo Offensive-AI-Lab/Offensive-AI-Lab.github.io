@@ -10,7 +10,7 @@ Our work is making a significant impact on research, polices, and public opinion
 
 - Phantom Attacks on Driver-Assistance Systems:<br/> [Wired](https://www.wired.com/story/tesla-model-x-autopilot-phantom-images/), [Ars Technica](https://arstechnica.com/cars/2020/01/how-a-300-projector-can-fool-teslas-autopilot/), [ZDNet](https://www.zdnet.com/article/tesla-and-other-autopilot-driven-cars-tricked-with-2d-projections/), [Threat Post](https://threatpost.com/tesla-autopilot-duped-by-phantom-images/152491/),  [deeplearning.ai](https://blog.deeplearning.ai/blog/the-batch-hotter-dating-profiles-pandas-in-love-compute-for-coronavirus-deepfake-detection-self-driving-cars-run-amok), and [Motor Trend](https://www.motortrend.com/news/tesla-autopilot-mobileye-driver-assist-tricked/).
 - Deepfakes in Medical Scans: <br/>[The Washington Post](https://www.washingtonpost.com/technology/2019/04/03/hospital-viruses-fake-cancerous-nodes-ct-scans-created-by-malware-trick-radiologists/), [Forbes](https://www.forbes.com/sites/daveywinder/2019/04/05/malware-removes-cancer-tumors-from-ct-scans-and-fools-radiologists/), [BBC](https://www.bbc.com/news/technology-47812475), [Engadget](https://www.engadget.com/2019-04-03-malware-cancerous-nodes-ct-mri-scans.html), [PCMag](https://www.pcmag.com/news/malware-can-add-or-remove-cancer-cells-to-ct-scans), [TechCrunch](https://techcrunch.com/2020/01/10/medical-images-exposed-pacs/), and [Gizmodo](https://gizmodo.com/researchers-demonstrate-malware-that-can-trick-doctors-1833786672).
-- Voice Deepfakes: <br/>[protocol](https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio)
+- Voice Deepfakes: <br/>[protocol](https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio) and (Fortune)[https://fortune.com/2022/09/03/live-deepfakes-detect-methods-zoom-fraud/?gbd367]
 
 <p float="left">
   <a href="https://www.wired.com/story/tesla-model-x-autopilot-phantom-images/"><img src="{{site.baseurl}}/assets/logos/Wired.png" width="140" style="margin: 15px;"/></a>
@@ -18,7 +18,11 @@ Our work is making a significant impact on research, polices, and public opinion
   <a href="https://www.forbes.com/sites/daveywinder/2019/04/05/malware-removes-cancer-tumors-from-ct-scans-and-fools-radiologists/"><img src="{{site.baseurl}}/assets/logos/forbes.png" width="120" style="margin: 15px;"/></a>
 <a href="https://techcrunch.com/2020/01/10/medical-images-exposed-pacs/"><img src="{{site.baseurl}}/assets/logos/tc2.png" width="80" style="margin: 15px;"/></a>
  <a href="https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio"><img src="{{site.baseurl}}/assets/logos/protocol.png" width="140" style="margin: 15px;"/></a>
+     <a href="https://fortune.com/2022/09/03/live-deepfakes-detect-methods-zoom-fraud/?gbd367"><img src="{{site.baseurl}}/assets/logos/fortune.png" width="140" style="margin: 15px;"/></a>
 </p>
+
+
+
 
 
 ## Academic Articles
