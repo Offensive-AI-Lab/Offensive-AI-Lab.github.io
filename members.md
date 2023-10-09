@@ -134,11 +134,11 @@ permalink: /members/
 	 
 		 <div style="flex-grow: 1;">
 		<p align="center"> 
-			 <a href="{{site.baseurl}}/fred.grabovsky/">
-			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovsky.jpg" > 
+			 <a href="{{site.baseurl}}/fred.grabovski/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovski.jpg" > 
 			</a>
 			<p align="center"> 
-			<a href="{{site.baseurl}}/fred.grabovsky/" style="text-decoration: none">Fred Grabovsky</a>
+			<a href="{{site.baseurl}}/fred.grabovski/" style="text-decoration: none">Fred Grabovski</a>
 		</p>
 		</p>
 	</div>
