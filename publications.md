@@ -29,13 +29,15 @@ Our work is making a significant impact on research, polices, and public opinion
 
 The following is a selection of our publications. Stay tuned *-we've only just begun!*
 
+- [Transpose Attack: Stealing Datasets with Bidirectional Training](https://www.ndss-symposium.org/ndss2024/) Guy Amit, Moshe Levy, Yisroel Mirsky. NDSS, 2024. `Rank A*`
 - [VulChecker: Graph-based Vulnerability Localization in Source Code](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky) Yisroel Mirsky, George Macon, Michael Brown, Carter Yagemann, Matthew Pruett, Evan Downing, Sukarno Mertoguno, Wenke Lee. USENIX Security Symposium, 2023. `Rank A*`
-- [Deepfake CAPTCHA: A Method for Preventing Fake Calls](https://arxiv.org/pdf/2301.03064) Lior Yasur, Guy Frankovits, Fred M Grabovski, Yisroel Mirsky. Preprint 2023.
+- [Deepfake CAPTCHA: A Method for Preventing Fake Calls](https://dl.acm.org/doi/pdf/10.1145/3579856.3595801) Lior Yasur, Guy Frankovits, Fred M Grabovski, Yisroel Mirsky. ASIA CCS 2023. `Rank A`
+- [The Threat of Real Time Deepfakes](https://arxiv.org/pdf/2306.02487.pdf) Guy Frankovits, Yisroel Mirsky. Proceedings of the 2nd Workshop on Security Implications of Deepfakes and Cheapfakes.  2023. 
+- [IPatch: A remote adversarial patch](https://arxiv.org/abs/2105.00113) Mirsky, Yisroel. Cybersecurity, Springer, 2023.
 - [The Threat of Offensive AI to Organizations](https://www.sciencedirect.com/science/article/pii/S0167404822003984) Yisroel Mirsky, Ambra Demontis, Jaidip Kotak, Ram Shankar, Deng Gelei, Liu Yang, Xiangyu Zhang, Maura Pintor, Wenke Lee, Yuval Elovici, Battista Biggio. Computers & Secuirty 2022. `IF 5.1, 34/246, Q1`
   USENIX Security Symposium, 2021. `Rank A*`
 - [The Security of Deep Learning Defences for Medical Imaging](https://arxiv.org/abs/2201.08661) Moshe Levy, Guy Amit, Yuval Elovici, Yisroel Mirsky. 2022 (preprint)
 - [The Integrity of Medical AI](https://dl.acm.org/doi/pdf/10.1145/3494109.3527191?casa_token=lXkpZRJEqMUAAAAA:SFiEfeQbSgj47z59PSwwo3dz_aSPjRZDH7mSMmupFgHxNE-qyAKT_HsrycfV1kMw8sqHOm5wINwI6l4). Mirsky, Yisroel. Proceedings of the 1st Workshop on Security Implications of Deepfakes and Cheapfakes. 2022. (preprint)
-- [IPatch: A remote adversarial patch](https://arxiv.org/abs/2105.00113) Mirsky, Yisroel. 2022 (preprint)
 - [The Creation and Detection of Deepfakes: A Survey](http://128.84.4.27/abs/2004.11138) Yisroel Mirsky, and Wenke Lee. ACM Computing Surveys (CSUR), 2020. `Rank Q1`
 - [Phantom of the ADAS: Securing Advanced Driver-Assistance Systems from Split-Second Phantom Attacks](https://eprint.iacr.org/2020/085.pdf) Ben Nassi, Yisroel Mirsky, Dudi Nassi, Raz Ben-Netanel, Oleg Drokin, and Yuval Elovici. ACM Conference on Computer and Communications Security (CCS), 2020. `Rank A*`
 - [CT-GAN: Malicious Tampering of 3D Medical Imagery using Deep Learning](https://www.usenix.org/system/files/sec19-mirsky_0.pdf) Yisroel Mirsky, Tom Mahler, Ilan Shelef, and Yuval Elovici. USENIX Security Symposium, 2019. `Rank A*`

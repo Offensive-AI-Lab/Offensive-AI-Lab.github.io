@@ -30,11 +30,11 @@ permalink: /members/
 
         <div style="flex-grow: 1;">
             <p align="center"> 
-                 <a href="{{site.baseurl}}/moshe.levy/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/moshe.levy.jpg" > 
+                 <a href="{{site.baseurl}}/yaniv.hacmon/">
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/yaniv.hacmon.jpg" > 
                 </a>
     			<p align="center"> 
-                <a href="{{site.baseurl}}/moshe.levy/" style="text-decoration: none">Moshe Levy</a>
+                <a href="{{site.baseurl}}/yaniv.hacmon/" style="text-decoration: none">Yaniv Hacmon</a>
             </p>
     		</p>
         </div>
@@ -88,13 +88,75 @@ permalink: /members/
     </div>
 
 <div class="container" style="display: flex;">
-        <div style="flex-grow: 1;">
-<p align="center">   <a href="{{site.baseurl}}/roey.bokobza/">
-<img width="200" height="auto" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg"> 
-</a><p align="center">
-    <a href="{{site.baseurl}}/roey.bokobza/"
-       style="text-decoration: none"> Roey Bokobza </a></p> </p> 
- </div></div>
+
+	<div style="flex-grow: 1;">
+	<p align="center">   <a href="{{site.baseurl}}/roey.bokobza/">
+	<img width="200" height="auto" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg"> 
+	</a><p align="center">
+		<a href="{{site.baseurl}}/roey.bokobza/"
+		   style="text-decoration: none"> Roey Bokobza </a></p> </p> 
+	 </div>
+	 
+		 <div style="flex-grow: 1;">
+		<p align="center"> 
+			 <a href="{{site.baseurl}}/daniel.ayzenshteyn/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/daniel.ayzenshteyn.jpg" > 
+			</a>
+			<p align="center"> 
+			<a href="{{site.baseurl}}/daniel.ayzenshteyn/" style="text-decoration: none">Daniel Ayzenshteyn</a>
+		</p>
+		</p>
+	</div>
+
+	<div style="flex-grow: 1;">
+		<p align="center"> 
+			 <a href="{{site.baseurl}}/amit.kravchik/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/amit.kravchik.jpg" > 
+			</a>
+			<p align="center"> 
+			<a href="{{site.baseurl}}/amit.kravchik/" style="text-decoration: none">Amit Kravchik</a>
+		</p>
+		</p>
+	</div>
+ 
+ </div>
+ 
+ 
+ <div class="container" style="display: flex;">
+
+	<div style="flex-grow: 1;">
+	<p align="center">   <a href="{{site.baseurl}}/lior.yasur/">
+	<img width="200" height="auto" src="{{site.baseurl}}/assets/members/lior.yasur.jpg"> 
+	</a><p align="center">
+		<a href="{{site.baseurl}}/lior.yasur/"
+		   style="text-decoration: none"> Lior Yasur </a></p> </p> 
+	 </div>
+	 
+		 <div style="flex-grow: 1;">
+		<p align="center"> 
+			 <a href="{{site.baseurl}}/fred.grabovsky/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovsky.jpg" > 
+			</a>
+			<p align="center"> 
+			<a href="{{site.baseurl}}/fred.grabovsky/" style="text-decoration: none">Fred Grabovsky</a>
+		</p>
+		</p>
+	</div>
+
+	<div style="flex-grow: 1;">
+		<p align="center"> 
+			 <a>
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
+			</a>
+			<p align="center"> 
+			<a style="text-decoration: none">Roy Lazar Weiss</a>
+		</p>
+		</p>
+	</div>
+ 
+ </div>
+ 
+
 
 ​       
 
@@ -105,14 +167,15 @@ permalink: /members/
 <div class="container" style="display: flex;">
         <div style="flex-grow: 1;">
             <p align="center"> 
-                 <a href="{{site.baseurl}}/sanket.badhe/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/sanket.badhe.jpg" > 
+                 <a>
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shashank.priyadarshi.jpg" > 
                 </a>
 				<p align="center"> 
-                <a href="{{site.baseurl}}/sanket.badhe/" style="text-decoration: none">Sanket Badhe</a>
+                <a style="text-decoration: none">Shashank Priyadarshi</a>
             </p>
 			</p>
         </div>
+		
              <div style="flex-grow: 1;">
             <p align="center"> 
                  <a href="{{site.baseurl}}/leyan.pan/">
@@ -123,40 +186,70 @@ permalink: /members/
             </p>
 			</p>
         </div>
-
+		
+		     <div style="flex-grow: 1;">
+            <p align="center"> 
+                 <a>
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/gilad.gressel.jpg" > 
+                </a>
+				<p align="center"> 
+                <a style="text-decoration: none">Gilad Gressel</a>
+            </p>
+			</p>
+        </div>
 </div>
 
-<center> <h3>Research Assistants</h3> </center>
-
 <div class="container" style="display: flex;">
-       <div style="flex-grow: 1;">
-		<p align="center">
-        <a href="{{site.baseurl}}/lior.yasur/">
-		<img width="200" height="auto" src="{{site.baseurl}}/assets/members/lior.yasur.jpg"> 
-		</a>
-		<p align="center">
-    <a href="{{site.baseurl}}/lior.yasur/"
-       style="text-decoration: none"> Lior Yasur </a></p> </p> 
-       </div>
-
-        <div style="flex-grow: 1;">
-    	<p align="center">
-        <a href="{{site.baseurl}}/fred.grabovski/">
-    	<img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovski.jpg"> 
-    	</a>
-    	<p align="center">
-    <a href="{{site.baseurl}}/fred.grabovski/"
-       style="text-decoration: none"> Fred Grabovski </a></p> </p> 
-       </div>
         <div style="flex-grow: 1;">
             <p align="center"> 
-                <a href="{{site.baseurl}}/tapdig.maharramli/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/tapdig.maharramli.jpg" > 
+                 <a>
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/abhijith.ramesh.jpg" > 
                 </a>
-    			<p align="center"> 
-                <a href="{{site.baseurl}}/tapdig.maharramli/" style="text-decoration: none">Tapdig Maharramli</a>
+				<p align="center"> 
+                <a style="text-decoration: none">Abhijith Ramesh</a>
             </p>
-    		</p>
+			</p>
+        </div>
+		
+</div>
+
+<center> <h3>Software Developers & Research Assistants</h3> </center>
+
+<div class="container" style="display: flex;">
+
+        <div style="flex-grow: 1;">
+            <p align="center"> 
+                 <a>
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/tomer.meshulam.jpg" > 
+                </a>
+				<p align="center"> 
+                <a style="text-decoration: none">Tomer Meshulam</a>
+            </p>
+			</p>
+        </div>
+		
+        <div style="flex-grow: 1;">
+            <p align="center"> 
+                 <a>
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/michal.alhindi.jpg"> 
+                </a>
+				<p align="center"> 
+                <a style="text-decoration: none">Michal Alhindi</a>
+            </p>
+			</p>
+        </div>
+		
+
+		
+		     <div style="flex-grow: 1;">
+            <p align="center"> 
+                 <a>
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/liav.barhum.jpg" > 
+                </a>
+				<p align="center"> 
+                <a style="text-decoration: none">Liav Barhum</a>
+            </p>
+			</p>
         </div>
 </div>
 
