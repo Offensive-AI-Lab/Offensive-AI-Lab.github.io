@@ -161,10 +161,10 @@ permalink: /members/
 	<div style="flex-grow: 1;">
 		<p align="center"> 
         <a href="{{site.baseurl}}/eden.luzon/">
-			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/eden.luzon.jpeg" > 
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/eden.luzon.png" > 
 			</a>
 			<p align="center"> 
-			<a href="{{site.baseurl}}/roy.weiss/" style="text-decoration: none">Eden Luzon</a>
+			<a href="{{site.baseurl}}/eden.luzon/" style="text-decoration: none">Eden Luzon</a>
 		</p>
 		</p>
 	</div>
