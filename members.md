@@ -146,16 +146,32 @@ permalink: /members/
 	<div style="flex-grow: 1;">
 		<p align="center"> 
 			 <a>
-			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
+    	  <a href="{{site.baseurl}}/roy.weiss/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/roy.weiss.jpeg" > 
 			</a>
 			<p align="center"> 
-			<a style="text-decoration: none">Roy Lazar Weiss</a>
+			<a style="text-decoration: none">Roy Weiss</a>
 		</p>
 		</p>
 	</div>
  
  </div>
+
+  <div class="container" style="display: flex;">
+
+	<div style="flex-grow: 1;">
+		<p align="center"> 
+			 <a>
+    	  <a href="{{site.baseurl}}/eden.luzon/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/eden.lzuon.png" > 
+			</a>
+			<p align="center"> 
+			<a style="text-decoration: none">Eden Luzon</a>
+		</p>
+		</p>
+	</div>
  
+ </div>
 
 
 ​       
