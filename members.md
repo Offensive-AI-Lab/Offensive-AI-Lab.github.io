@@ -146,7 +146,7 @@ permalink: /members/
 	<div style="flex-grow: 1;">
 		<p align="center"> 
         <a href="{{site.baseurl}}/roy.weiss/">
-			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/Roy.Weiss.jpeg" > 
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/roy.weiss.jpeg" > 
 			</a>
 			<p align="center"> 
 			<a href="{{site.baseurl}}/roy.weiss/" style="text-decoration: none">Roy Weiss</a>
@@ -156,7 +156,20 @@ permalink: /members/
  
  </div>
  
+<div class="container" style="display: flex;">
 
+	<div style="flex-grow: 1;">
+		<p align="center"> 
+        <a href="{{site.baseurl}}/eden.luzon/">
+			<img width="200" height="auto" src="{{site.baseurl}}/assets/members/eden.luzon.jpeg" > 
+			</a>
+			<p align="center"> 
+			<a href="{{site.baseurl}}/roy.weiss/" style="text-decoration: none">Eden Luzon</a>
+		</p>
+		</p>
+	</div>
+ 
+ </div>
 
 ​       
 
