@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /bar.avraham/
+permalink: /roy.weiss/
 ---
 
- <font size="5">Bar Avraham</font>
+ <font size="5">Roy Weiss</font>
 
-![image]({{site.baseurl}}/assets/members/bar.avraham.jpg){: style="float: left; margin-right:10px" width="250px"} 
+![image]({{site.baseurl}}/assets/members/roy.weiss.jpeg){: style="float: left; margin-right:10px" width="250px"} 
 
-`Bar Avraham` is a masters student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev. She is researching the robustness of AI models.
+`Roy Weiss` is a researcher and a master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev. His research interests include Cyber Security, Network Security and Deep Learning. Outside of academics, he enjoys reading, football, and powerlifting.
 
-Email: [baravrah@post.bgu.ac.il](mailto:baravrah@post.bgu.ac.il)
+Email: [baravrah@post.bgu.ac.il](mailto:weissroy@post.bgu.ac.il)
 
-LinkedIn: [link](https://www.linkedin.com/in/bar-avraham-4475b1218)
+LinkedIn: [link](https://www.linkedin.com/in/royweiss1/)
 
