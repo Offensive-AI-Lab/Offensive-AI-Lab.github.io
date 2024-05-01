@@ -20,6 +20,8 @@ Our work is making a significant impact on research, polices, and public opinion
 <a href="https://techcrunch.com/2020/01/10/medical-images-exposed-pacs/"><img src="{{site.baseurl}}/assets/logos/tc2.png" width="80" style="margin: 15px;"/></a>
  <a href="https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio"><img src="{{site.baseurl}}/assets/logos/protocol.png" width="140" style="margin: 15px;"/></a>
      <a href="https://fortune.com/2022/09/03/live-deepfakes-detect-methods-zoom-fraud/?gbd367"><img src="{{site.baseurl}}/assets/logos/fortune.png" width="140" style="margin: 15px;"/></a>
+     <a href="https://arstechnica.com/security/2024/03/hackers-can-read-private-ai-assistant-chats-even-though-theyre-encrypted/"><img src="{{site.baseurl}}/assets/logos/arstechnica.png" width="140" style="margin: 15px;"/></a>
+
 </p>
 
 
