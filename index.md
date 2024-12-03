@@ -36,6 +36,8 @@ We would also like to thank the various organizations who have supported our res
   <img src="{{site.baseurl}}/assets/logos/IIA.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
    <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
+   <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
+   <img src="{{site.baseurl}}/assets/logos/MS.png" width="200" style="margin: 15px;" />
 </p>
 
 <p>&nbsp;</p>
@@ -44,6 +46,7 @@ We would also like to thank the various organizations who have supported our res
 
 We would also like to acknowledge our research partners from around the globe!
 
+- `Coalition for Secure AI`, [COSAI](https://www.coalitionforsecureai.org/) 
 - `Prof. Battista Biggio`, [PRLab](https://pralab.diee.unica.it/en), *University of Cagliari*, Italy
 - `Prof. Benjamin Rubinstein` *University of Melbourne*, Australia
 - `Ram Shankar`, [Azure Security](https://cyber.harvard.edu/people/ram-shankar-siva-kumar), *Microsoft*, United States

@@ -25,14 +25,17 @@ Our work is making a significant impact on research, polices, and public opinion
 </p>
 
 
+## Talks
 
+<iframe width="702" height="395" src="https://www.youtube.com/embed/I1RqhGGRmHY" title="DEF CON 32 - Your AI Assistant has a Big Mouth:  A New Side Channel Attack - Yisroel Mirsky" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ## Academic Articles
 
 The following is a selection of our publications. Stay tuned *-we've only just begun!*
-
-- [What Was Your Prompt? A Remote Keylogging Attack on AI Assistants](https://arxiv.org/abs/2403.09751) Weiss R., Ayzenshteyn D., Amit G., Mirsky Y. (preprint)
+- [What Was Your Prompt? A Remote Keylogging Attack on AI Assistants](https://www.usenix.org/conference/usenixsecurity24/presentation/weiss) R Weiss, D Ayzenshteyn, G Amit, Y Mirsky. USENIX 2024 `Rank A*` & DEF CON 32.
+- [Efficient Model Extraction via Boundary Sampling](https://arxiv.org/pdf/2410.15429) Maor Biton Dor, Yisroel Mirsky. ACM AISec, 2024 `Best Paper Award`
+- [Exploiting LLMs for Scam Automation: A Looming Threat](https://dl.acm.org/doi/pdf/10.1145/3660354.3660356) G Gressel, R Pankajakshan, Y Mirsky. WDC, 2024 `Best Paper Award`
 - [Transferability Ranking of Adversarial Examples](https://arxiv.org/abs/2208.10878) Levy M., Amit G., Elovici Y.,Mirsky Y. ACM Transactions on Intelligent Systems and Technology (TIST). 2024. `IF 5,  6/251, Q1`
 - [Transpose Attack: Stealing Datasets with Bidirectional Training](https://www.ndss-symposium.org/ndss2024/) Guy Amit, Moshe Levy, Yisroel Mirsky. NDSS, 2024. `Rank A*`
 - [VulChecker: Graph-based Vulnerability Localization in Source Code](https://www.usenix.org/conference/usenixsecurity23/presentation/mirsky) Yisroel Mirsky, George Macon, Michael Brown, Carter Yagemann, Matthew Pruett, Evan Downing, Sukarno Mertoguno, Wenke Lee. USENIX Security Symposium, 2023. `Rank A*`

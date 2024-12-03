@@ -7,7 +7,7 @@ permalink: /members/
 <center> <h3>Principal Investigator</h3> </center>
 
 <p align="center">   <a href="{{site.baseurl}}/yisroel.mirsky/">
-<img width="200" height="auto" src="{{site.baseurl}}/assets/members/yisroel.mirsky.png"> 
+<img width="200" height="auto" src="{{site.baseurl}}/assets/members/yisroel.mirsky.jpg"> 
 </a><p align="center">
     <a href="{{site.baseurl}}/yisroel.mirsky/"
        style="text-decoration: none"> Dr. Yisroel Mirsky </a></p> </p> 
