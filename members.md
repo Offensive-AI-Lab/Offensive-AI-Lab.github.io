@@ -6,10 +6,10 @@ permalink: /members/
 
 <center> <h3>Principal Investigator</h3> </center>
 
-<p align="center">   <a href="{{site.baseurl}}/yisroel.mirsky/">
+<p align="center">   <a href="https://ymirsky.github.io/">
 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/yisroel.mirsky.png"> 
 </a><p align="center">
-    <a href="{{site.baseurl}}/yisroel.mirsky/"
+    <a href="https://ymirsky.github.io/"
        style="text-decoration: none"> Dr. Yisroel Mirsky </a></p> </p> 
 
 
