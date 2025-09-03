@@ -270,96 +270,84 @@ permalink: /members/
 
 
 <center> <h3>Alumni</h3> </center>
+<!-- Row 1 -->
+<div class="container" style="display: flex; justify-content: center; gap: 20px;">
 
-<div class="container" style="display: flex;">
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/guy.amit.png">
+    </a>
+    <div>
+      <a style="text-decoration: none">Guy Amit [PhD 2024]</a>
+    </div>
+  </div>
 
-        <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/guy.amit.png" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Guy Amit  [PhD 2024]</a>
-            </p>
-			</p>
-        </div>
-		
-        <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg"> 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Roey Bokobza  [MSc 2024]</a>
-            </p>
-			</p>
-        </div>
-		
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg">
+    </a>
+    <div>
+      <a style="text-decoration: none">Roey Bokobza [MSc 2024]</a>
+    </div>
+  </div>
 
-		
-		     <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/bar.avraham.jpg" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Bar Avraham [MSc 2024]/a>
-            </p>
-			</p>
-        </div>
- </div>
-<div class="container" style="display: flex;">
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/bar.avraham.jpg">
+    </a>
+    <div>
+      <a style="text-decoration: none">Bar Avraham [MSc 2024]</a>
+    </div>
+  </div>
 
-
-        <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/maor.dor.jpg" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Maor Bitton Dor [MSc 2024]</a>
-            </p>
-			</p>
-        </div>
-		
-        <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/guy.frankovitz.jpg"> 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Guy Frankovitz [MSc 2024]</a>
-            </p>
-			</p>
-        </div>
-		
-
-		
-		     <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shashankpriyadarshi.jpg" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Shashank Priyadarshi [Intern 2023]/a>
-            </p>
-			</p>
-        </div>
- </div>
-<div class="container" style="display: flex;">
-
-
-        <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/abhijith.ramesh.jpg" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Abhijith Ramesh [Intern 2022]</a>
-            </p>
-			</p>
-        </div>
 </div>
+
+<!-- Row 2 -->
+<div class="container" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/maor.dor.jpg">
+    </a>
+    <div>
+      <a style="text-decoration: none">Maor Bitton Dor [MSc 2024]</a>
+    </div>
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/guy.frankovitz.jpg">
+    </a>
+    <div>
+      <a style="text-decoration: none">Guy Frankovitz [MSc 2024]</a>
+    </div>
+  </div>
+
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/shashank.priyadarshi.jpg">
+    </a>
+    <div>
+      <a style="text-decoration: none">Shashank Priyadarshi [Intern 2023]</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- Row 3 -->
+<div class="container" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
+
+  <div style="flex: 1; text-align: center;">
+    <a>
+      <img width="200" src="{{site.baseurl}}/assets/members/abhijith.ramesh.jpg">
+    </a>
+    <div>
+      <a style="text-decoration: none">Abhijith Ramesh [Intern 2022]</a>
+    </div>
+  </div>
+
+</div>
+
   
 We are actively recruiting excellent students pursuing  an M.Sc., Ph.D. or post-doc. We are also looking for talented post-docs to join our team! For details, please see our [About page]({{site.baseurl}}/about).
 
