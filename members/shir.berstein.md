@@ -8,11 +8,11 @@ permalink: /shir.bernstein/
 
 
 
-&nbsp;<font size="5">Shir Bernstein</font>
+<font size="5">Shir Bernstein</font>
 
 
 
-!\[image]({{site.baseurl}}/assets/members/shir.bernstein.jpg){: style="float: left; margin-right:10px" width="250px"} 
+![image]({{site.baseurl}}/assets/members/shir.bernstein.jpg){: style="float: left; margin-right:10px" width="250px"} 
 
 
 
@@ -20,11 +20,11 @@ permalink: /shir.bernstein/
 
 
 
-Email: \[ShirBernstein54@gmail.com ](mailto:ShirBernstein54@gmail.com )
+Email: [ShirBernstein54@gmail.com ](mailto:ShirBernstein54@gmail.com )
 
 
 
-LinkedIn: \[link](linkedin.com/in/shir-bernstein-b0213a242)
+LinkedIn: [link](linkedin.com/in/shir-bernstein-b0213a242)
 
 
 

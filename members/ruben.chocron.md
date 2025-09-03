@@ -12,7 +12,7 @@ permalink: /ruben.chocron/
 
 
 
-!\[image]({{site.baseurl}}/assets/members/ruben.chocron.png){: style="float: left; margin-right:10px" width="250px"}
+![image]({{site.baseurl}}/assets/members/ruben.chocron.png){: style="float: left; margin-right:10px" width="250px"}
 
 
 
@@ -20,11 +20,11 @@ permalink: /ruben.chocron/
 
 
 
-Email: \[rubencho@post.bgu.ac.il](mailto:rubencho@post.bgu.ac.il)
+Email: [rubencho@post.bgu.ac.il](mailto:rubencho@post.bgu.ac.il)
 
 
 
-LinkedIn: \[link](https://www.linkedin.com/in/rubenchocron/)
+LinkedIn: [link](https://www.linkedin.com/in/rubenchocron/)
 
 
 

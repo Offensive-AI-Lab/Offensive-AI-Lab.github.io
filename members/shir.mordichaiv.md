@@ -8,11 +8,11 @@ permalink: /shir.mordechaiv/
 
 
 
-&nbsp;<font size="5">Shir Mordechaiv</font>
+<font size="5">Shir Mordechaiv</font>
 
 
 
-!\[image]({{site.baseurl}}/assets/members/shir.mordechaiv.jpg){: style="float: left; margin-right:10px" width="250px"} 
+![image]({{site.baseurl}}/assets/members/shir.mordechaiv.jpg){: style="float: left; margin-right:10px" width="250px"} 
 
 
 
@@ -20,11 +20,11 @@ permalink: /shir.mordechaiv/
 
 
 
-Email: \[shirozenfeld@gmail.com](mailto:shirozenfeld@gmail.com)
+Email: [shirozenfeld@gmail.com](mailto:shirozenfeld@gmail.com)
 
 
 
-LinkedIn: \[link](www.linkedin.com/in/shir-rozenfeld-846591209)
+LinkedIn: [link](www.linkedin.com/in/shir-rozenfeld-846591209)
 
 
 

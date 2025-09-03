@@ -12,7 +12,7 @@ permalink: /hallel.dotan/
 
 
 
-!\[image]({{site.baseurl}}/assets/members/hallel.dotan.jpeg){: style="float: left; margin-right:10px" width="250px"}
+![image]({{site.baseurl}}/assets/members/hallel.dotan.jpeg){: style="float: left; margin-right:10px" width="250px"}
 
 
 
@@ -20,11 +20,11 @@ permalink: /hallel.dotan/
 
 
 
-Email: \[hallelsh@post.bgu.ac.il](mailto:allelsh@post.bgu.ac.il)
+Email: [hallelsh@post.bgu.ac.il](mailto:allelsh@post.bgu.ac.il)
 
 
 
-LinkedIn: \[link](https://www.linkedin.com/in/hallel-dotan-9aa32113b/)
+LinkedIn: [link](https://www.linkedin.com/in/hallel-dotan-9aa32113b/)
 
 
 
