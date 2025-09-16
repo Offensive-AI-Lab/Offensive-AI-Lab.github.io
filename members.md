@@ -153,7 +153,7 @@ permalink: /members/
         <div style="flex-grow: 1;">
             <p align="center"> 
                  <a href="{{site.baseurl}}/benyamin.konstantinov/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/benyamin.kon.jpg" > 
                 </a>
     			<p align="center"> 
                 <a style="text-decoration: none">Benyamin Konstantinov [MSc]</a>
