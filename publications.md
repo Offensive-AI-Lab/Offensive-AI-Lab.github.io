@@ -35,6 +35,8 @@ Our work is making a significant impact on research, polices, and public opinion
 
 The following is a selection of our publications. Stay tuned *-we've only just begun!*
 
+- Memory Backdoor Attacks on Neural Networks. Eden Luzon, Roy Weiss, Torsten Krauss, Alexandra Dimitrienko, Yisroel Mirsky.  NDSS 2026. `Rank A*`
+- [Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias](https://arxiv.org/pdf/2508.17361) Shir Bernstein, David Beste, Daniel Ayzenshteyn, Lea Schönherr, Yisroel Mirsky.  NDSS'26. `Rank A*`
 - [Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf) D Ayzenshteyn, R Weiss, Y Mirsky. USENIX Security 2025 `Rank A*`
 - [The Threat of Deepfake Fingerprints](https://dl.acm.org/doi/pdf/10.1145/3709022) Y Hacmon, K Gorelik, Y Mirsky. WDC, 2025 `Best Paper Award`
 - [PEAS: A Strategy for Crafting Transferable Adversarial Examples](https://dl.acm.org/doi/pdf/10.1145/3763003) B Avraham, Y Mirsky. ACM TIST. 2025 `Rank Q1`.‏
