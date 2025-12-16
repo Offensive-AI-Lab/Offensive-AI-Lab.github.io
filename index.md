@@ -30,6 +30,8 @@ We would also like to thank the various organizations who have supported our res
 
 
 <p float="left">
+     <img src="{{site.baseurl}}/assets/logos/MS.png" width="200" style="margin: 15px;" />
+   <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/H2020.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/DoE.png" width="200" style="margin: 15px;" />
   <img src="{{site.baseurl}}/assets/logos/MoE.png" width="200" style="margin: 15px;" />
@@ -37,8 +39,7 @@ We would also like to thank the various organizations who have supported our res
   <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
    <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
    <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
-   <img src="{{site.baseurl}}/assets/logos/MS.png" width="200" style="margin: 15px;" />
-   <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
+     <img src="{{site.baseurl}}/assets/logos/MOST.png" width="350" style="margin: 15px;" />
 </p>
 
 
