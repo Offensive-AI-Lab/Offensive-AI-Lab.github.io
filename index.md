@@ -15,13 +15,13 @@ layout: home
 
 **`Offensive AI`** is the use of artificial intelligence for malicious purposes including attacks on AI systems (a.k.a. adversarial machine learning) and attacks powered by AI (deepfakes, swarm malware, ML for zero-day detection, and so on). 
 
-The `Offensive AI Research Lab` (OAR) studies how adversaries use AI to enhance their attacks. The objective of the lab is to protect society by identifying and mitigating AI threats before they become mainstream. We are located in the BGU Cyber Security Research Center in Be'er Sheva Israel.
+The `Offensive AI Lab` (OAI Lab) studies how adversaries use AI to enhance their attacks. The objective of the lab is to protect society by identifying and mitigating AI threats before they become mainstream. We are located in the BGU Cyber Security Research Center in Be'er Sheva Israel.
 
 <p>&nbsp;</p>
 
 ## Our Supporters
 
-This lab has been funded in partnership with the Zuckerman STEM Leadership Program
+This lab has is supported by the Zuckerman STEM Leadership Program
 
 ![image tooltip here](/assets/logos/zuckerman.png)
 
