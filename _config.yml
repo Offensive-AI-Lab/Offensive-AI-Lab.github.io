@@ -3,7 +3,7 @@ author:
   name: Offensive AI Research Lab
   email: Offensive.AI.Lab@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
-  We investigate how adversaries are using and abusing AI to perform malicious tasks (deepfakes, defense evasion, attack automation, and so on). Our goal is to identify and prevent these emerging threats before they become mainstream.
+  We investigate how adversaries are using and abusing AI to perform malicious tasks (LLM exploitation, defense evasion, attack automation, deepfakes, and so on). Our goal is to identify and prevent these emerging threats before they become mainstream.
 
 
 show_excerpts: false # set to true to show excerpts on the homepage
