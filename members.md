@@ -55,7 +55,7 @@ permalink: /members/
 
         <div style="flex-grow: 1;">
             <p align="center"> 
-                 <a href="{{site.baseurl}}/shir.mordechaiv/">
+                 <a href="{{site.baseurl}}/shir.rozenfeld/">
                 <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shir.rozenfeld.jpg" > 
                 </a>
 				<p align="center"> 
