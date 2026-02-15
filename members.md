@@ -56,10 +56,10 @@ permalink: /members/
         <div style="flex-grow: 1;">
             <p align="center"> 
                  <a href="{{site.baseurl}}/shir.mordechaiv/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shir.mordechaiv.jpg" > 
+                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shir.rozenfeld.jpg" > 
                 </a>
 				<p align="center"> 
-                <a href="{{site.baseurl}}/shir.mordechaiv/" style="text-decoration: none">Shir Mordechaiv [MSc]</a>
+                <a href="{{site.baseurl}}/shir.rozenfeld/" style="text-decoration: none">Shir Rozenfeld [MSc]</a>
             </p>
 			</p>
         </div>
