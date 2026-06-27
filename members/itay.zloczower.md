@@ -7,7 +7,7 @@ permalink: /itay.zloczower/
 
 ![image]({{site.baseurl}}/assets/members/itay.zloczower.jpg){: style="float: left; margin-right:10px" width="250px"} 
 
-`Itay Zloczower` is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev.
+`Itay Zloczower` is a researcher and master's degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev. His work addresses the safety and alignment of large language models, focusing on the adversarial robustness of defenses against harmful fine-tuning.
 
 Email: [ itayzloc@post.bgu.ac.il](mailto: itayzloc@post.bgu.ac.il)
 

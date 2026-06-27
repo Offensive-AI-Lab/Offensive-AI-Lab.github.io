@@ -9,7 +9,7 @@ permalink: /hallel.dotan/
 
 `Hallel Dotan` is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev. Her research focuses on AI safety.
 
-Email: [hallelsh@post.bgu.ac.il](mailto:allelsh@post.bgu.ac.il)
+Email: [hallel.dotan209@gmail.com](mailto:hallel.dotan209@gmail.com)
 
 LinkedIn: [link](https://www.linkedin.com/in/hallel-dotan-9aa32113b/)
 
