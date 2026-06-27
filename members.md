@@ -19,6 +19,9 @@ permalink: /members/
      rewrap automatically (3 per row). To add a member, paste one card block below at the
      desired position - the others reflow on their own, no shifting needed. -->
 <style>
+  /* Force all member photos to the same size so rows line up evenly.
+     object-fit: cover crops to fill the box without distorting the image. */
+  .members-grid img { width: 200px; height: 200px; object-fit: cover; }
   /* Gap between each member's photo and their name (matches the original site spacing) */
   .members-grid p { margin-top: 15px; }
 </style>
