@@ -36,7 +36,6 @@ permalink: /members/
     </p>
   </div>
 
-
   <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/shir.rozenfeld/">
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shir.rozenfeld.jpg">
@@ -45,7 +44,6 @@ permalink: /members/
       <a href="{{site.baseurl}}/shir.rozenfeld/" style="text-decoration: none">Shir Rozenfeld [PhD]</a>
     </p>
   </div>
-
 
   <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/doron.ben.chayim/">
@@ -56,7 +54,14 @@ permalink: /members/
     </p>
   </div>
 
-
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <a href="{{site.baseurl}}/rahul.pankajakshan/">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/rahul.jpg">
+    </a>
+    <p>
+      <a href="{{site.baseurl}}/rahul.pankajakshan/" style="text-decoration: none">Rahul Pankajakshan [PhD]</a>
+    </p>
+  </div>
 
   <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/daniel.ayzenshteyn/">
@@ -76,7 +81,6 @@ permalink: /members/
     </p>
   </div>
 
-
   <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/shir.bernstein/">
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shir.bernstein.jpg">
@@ -87,47 +91,11 @@ permalink: /members/
   </div>
 
   <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/fred.grabovski/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovski.jpg">
-    </a>
-    <p>
-      <a href="{{site.baseurl}}/fred.grabovski/" style="text-decoration: none">Fred Grabovski [MSc]</a>
-    </p>
-  </div>
-
-  <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/eden.luzon/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/eden.luzon.png">
-    </a>
-    <p>
-      <a href="{{site.baseurl}}/eden.luzon/" style="text-decoration: none">Eden Luzon [MSc]</a>
-    </p>
-  </div>
-
-  <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/yaniv.hacmon/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/yaniv.hacmon.jpg">
-    </a>
-    <p>
-      <a href="{{site.baseurl}}/yaniv.hacmon/" style="text-decoration: none">Yaniv Hacmon [MSc]</a>
-    </p>
-  </div>
-
-  <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/lior.yasur/">
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/lior.yasur.jpg">
     </a>
     <p>
       <a href="{{site.baseurl}}/lior.yasur/" style="text-decoration: none">Lior Yasur [MSc]</a>
-    </p>
-  </div>
-
-  <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/amit.kravchik/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/amit.kravchik.jpg">
-    </a>
-    <p>
-      <a href="{{site.baseurl}}/amit.kravchik/" style="text-decoration: none">Amit Kravchik [MSc]</a>
     </p>
   </div>
 
@@ -195,11 +163,11 @@ permalink: /members/
   </div>
 
   <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/dudi.nassi/">
+    <a href="{{site.baseurl}}/eyal.lenga/">
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
     </a>
     <p>
-      <a style="text-decoration: none">Dudi Nassi</a>
+      <a style="text-decoration: none">Eyal Lenga</a>
     </p>
   </div>
 
@@ -208,107 +176,101 @@ permalink: /members/
 
 <center> <h3>Research Assistants and Associates</h3> </center>
 
-<div class="container" style="display: flex;">
-        <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a>
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Rahul Pankajakshan</a>
-            </p>
-			</p>
-        </div>
-		
-             <div style="flex-grow: 1;">
-            <p align="center"> 
-                 <a href="{{site.baseurl}}/eyal.lenga/">
-                <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png" > 
-                </a>
-				<p align="center"> 
-                <a style="text-decoration: none">Eyal Lenga</a>
-            </p>
-			</p>
-        </div>
-		
+<!-- Research Assistants: same auto-wrapping grid. -->
+<div class="members-grid container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <a href="{{site.baseurl}}/fadi.amun/">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/fadi.amun.jpg">
+    </a>
+    <p>
+      <a href="{{site.baseurl}}/fadi.amun/" style="text-decoration: none">Fadi Amun [BSc]</a>
+    </p>
+  </div>
+
 </div>
 
 
 <center> <h3>Alumni</h3> </center>
-<!-- Row 1 -->
-<div class="container" style="display: flex; justify-content: center; gap: 20px;">
 
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/guy.amit.png">
-    </a>
-    <div>
+<!-- Alumni: same auto-wrapping grid. Newest graduation year first. -->
+<div class="members-grid container" style="display: flex; flex-wrap: wrap; justify-content: center;">
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/eden.luzon.png">
+    <p>
+      <a style="text-decoration: none">Eden Luzon [MSc 2025]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/yaniv.hacmon.jpg">
+    <p>
+      <a style="text-decoration: none">Yaniv Hacmon [MSc 2025]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/amit.kravchik.jpg">
+    <p>
+      <a style="text-decoration: none">Amit Kravchik [MSc 2025]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/fred.grabovski.jpg">
+    <p>
+      <a style="text-decoration: none">Fred Grabovski [MSc 2025]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/guy.amit.png">
+    <p>
       <a style="text-decoration: none">Guy Amit [PhD 2024]</a>
-    </div>
+    </p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg">
-    </a>
-    <div>
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/roey.bokobza.jpg">
+    <p>
       <a style="text-decoration: none">Roey Bokobza [MSc 2024]</a>
-    </div>
+    </p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/bar.avraham.jpg">
-    </a>
-    <div>
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/bar.avraham.jpg">
+    <p>
       <a style="text-decoration: none">Bar Avraham [MSc 2024]</a>
-    </div>
+    </p>
   </div>
 
-</div>
-
-<!-- Row 2 -->
-<div class="container" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
-
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/maor.dor.jpg">
-    </a>
-    <div>
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/maor.dor.jpg">
+    <p>
       <a style="text-decoration: none">Maor Bitton Dor [MSc 2024]</a>
-    </div>
+    </p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/guy.frankovitz.jpg">
-    </a>
-    <div>
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/guy.frankovitz.jpg">
+    <p>
       <a style="text-decoration: none">Guy Frankovitz [MSc 2024]</a>
-    </div>
+    </p>
   </div>
 
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/shashank.priyadarshi.jpg">
-    </a>
-    <div>
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/shashank.priyadarshi.jpg">
+    <p>
       <a style="text-decoration: none">Shashank Priyadarshi [Intern 2023]</a>
-    </div>
+    </p>
   </div>
 
-</div>
-
-<!-- Row 3 -->
-<div class="container" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
-
-  <div style="flex: 1; text-align: center;">
-    <a>
-      <img width="200" src="{{site.baseurl}}/assets/members/abhijith.ramesh.jpg">
-    </a>
-    <div>
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/abhijith.ramesh.jpg">
+    <p>
       <a style="text-decoration: none">Abhijith Ramesh [Intern 2022]</a>
-    </div>
+    </p>
   </div>
 
 </div>
