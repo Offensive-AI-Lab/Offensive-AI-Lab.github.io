@@ -49,8 +49,12 @@ minima:
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+  - about.md
+  - contact.md
+  - members.md
+  - publications.md
+  - projects/gavel.md
 
 # Build settings
 theme: minima
