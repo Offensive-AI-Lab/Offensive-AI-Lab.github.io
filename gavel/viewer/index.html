@@ -12,6 +12,8 @@
     --neg: #b3372f; --neg-soft: #fbeae8; --warn-soft: #fdf3e2; --warn: #9a6a12;
     --user-bubble: #4653d6; --asst-bubble: #eceef2; --sys-bubble: #fdf3e2;
     --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+    --g0: #9a6a12; --g0-soft: #fdf3e2; --g1: #0f766e; --g1-soft: #e0f1ee;
+    --g2: #7c3aed; --g2-soft: #f1eafd; --g3: #be185d; --g3-soft: #fce8f1;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -20,6 +22,8 @@
       --chip: #272b34; --pos: #5ecf9a; --pos-soft: #17301f;
       --neg: #f0938c; --neg-soft: #3a1f1c; --warn-soft: #35290f; --warn: #e3b25e;
       --user-bubble: #3b47b8; --asst-bubble: #272b34; --sys-bubble: #35290f;
+      --g0: #e3b25e; --g0-soft: #35290f; --g1: #5fd1c0; --g1-soft: #10302b;
+      --g2: #b79cf5; --g2-soft: #2a2140; --g3: #ef8bb4; --g3-soft: #3a1a29;
     }
   }
   * { box-sizing: border-box; }
@@ -63,6 +67,11 @@
     padding: 2px 7px; cursor: pointer; white-space: nowrap; }
   .ce-ref:hover { text-decoration: underline; }
   .ce-ref.unknown { background: var(--chip); color: var(--muted); cursor: default; }
+  .gname { font-family: var(--mono); border-radius: 6px; padding: 2px 7px; white-space: nowrap; }
+  .g0 { color: var(--g0); background: var(--g0-soft); }
+  .g1 { color: var(--g1); background: var(--g1-soft); }
+  .g2 { color: var(--g2); background: var(--g2-soft); }
+  .g3 { color: var(--g3); background: var(--g3-soft); }
   .tag-pos { color: var(--pos); background: var(--pos-soft); }
   .tag-neg { color: var(--neg); background: var(--neg-soft); }
   .tag-warn { color: var(--warn); background: var(--warn-soft); }
@@ -234,10 +243,13 @@ function showRule(name) {
   const r = rules()[name];
   const d = document.getElementById('detail');
   const testTypes = Object.keys(r.tests || {});
+  const groupNames = Object.keys(r.groups || {});
+  const gcls = g => 'g' + (groupNames.indexOf(g) % 4);
   d.innerHTML = header(name, r, 'rule') + `
-    <section class="block"><h4>Condition</h4><div class="predicate">${esc(r.condition)}</div></section>
-    ${Object.entries(r.groups || {}).map(([g, members]) => triple('Group: ' + g, members, 'tag-warn')).join('')}
-    <section class="block"><h4>Firing logic (derived)</h4><div class="predicate">${fmtPredicate(r.predicate)}</div></section>
+    ${Object.entries(r.groups || {}).map(([g, members]) => `
+      <section class="block"><h4>Group: <span class="gname ${gcls(g)}">${esc(g)}</span></h4>
+        <div class="chips">${members.map(n => ceChip(n, gcls(g))).join(' ')}</div></section>`).join('')}
+    <section class="block"><h4>Rule</h4><div class="predicate">${fmtCondition(r.condition, groupNames, gcls)}</div></section>
     <section class="block"><h4>CE dependencies (${(r.ces || []).length})</h4>
       <div class="grid2">${(r.ces || []).map(cn => {
         const ce = ces()[cn];
@@ -253,24 +265,15 @@ function showRule(name) {
   if (testTypes.length) loadDS(r.tests[testTypes[0]], 'conversations', document.querySelector('#dstabs button'));
 }
 
-function triple(title, arr, cls) {
-  if (!arr || !arr.length) return '';
-  return `<section class="block"><h4>${title}</h4><div class="chips">
-    ${arr.map(n => ceChip(n, cls)).join(' ')}</div></section>`;
-}
-
 function ceChip(name, cls) {
   return ces()[name] ? `<span class="ce-ref ${cls || ''}" onclick="show('ces','${name}')">${esc(name)}</span>`
                      : `<span class="ce-ref unknown">${esc(name)}</span>`;
 }
 
-function fmtPredicate(p) {
-  if (!p) return '<i>none</i>';
-  return p.replace(/([()])|\b(AND|OR|NOT)\b|([A-Za-z_][A-Za-z0-9_]*)/g, (m, paren, op, word) => {
-    if (paren) return `<span class="paren">${paren}</span>`;
-    if (op) return `<span class="op">${op}</span>`;
-    return ceChip(word);
-  });
+function fmtCondition(cond, groupNames, gcls) {
+  if (!cond) return '<i>none</i>';
+  return esc(cond).replace(/[A-Za-z_][A-Za-z0-9_]*/g, w =>
+    groupNames.includes(w) ? `<span class="gname ${gcls(w)}">${w}</span>` : w);
 }
 
 // ---------- CE ----------
