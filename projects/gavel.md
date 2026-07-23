@@ -83,10 +83,11 @@ Think of it as a security camera for a model's mind. As the LLM processes a prom
     <a href="https://github.com/Offensive-AI-Lab/gavel-studio-v2.0">github.com/Offensive-AI-Lab/gavel-studio-v2.0 →</a>
   </div>
 
-  <div style="flex: 1 1 280px; max-width: 320px; padding: 20px; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px; opacity:0.75;">
+  <div style="flex: 1 1 280px; max-width: 320px; padding: 20px; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px;">
     <h3 style="margin-top:0;">📚 Rule Registry</h3>
-    <p style="font-size:0.95em;">A public, community-contributed library of Cognitive Elements and rules — the AI-safety equivalent of a shared signature feed.</p>
-    <span style="display:inline-block; padding: 3px 10px; border:1px solid rgba(255,255,255,0.3); border-radius:12px; font-size:0.8em;">Coming soon</span>
+    <p style="opacity:0.85; font-size:0.95em;">A public, community-contributed library of Cognitive Elements and rules — the AI-safety equivalent of a shared signature feed. Browse every rule, CE, and dataset in the live viewer.</p>
+    <a href="{{site.baseurl}}/gavel/viewer/">Browse the library →</a>
+    <span style="display:inline-block; margin-left:8px; padding: 3px 10px; border:1px solid rgba(255,255,255,0.3); border-radius:12px; font-size:0.8em;">Opens at launch</span>
   </div>
 
 </div>
