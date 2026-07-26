@@ -145,20 +145,29 @@ permalink: /members/
   </div>
 
   <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/or.eliav/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
-    </a>
-    <p>
-      <a style="text-decoration: none">Or Eliav</a>
-    </p>
-  </div>
-
-  <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/itay.zloczower/">
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/itay.zloczower.jpg">
     </a>
     <p>
       <a href="{{site.baseurl}}/itay.zloczower/" style="text-decoration: none">Itay Zloczower [MSc]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <a href="{{site.baseurl}}/ariel.bitan/">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/ariel.bitan.png">
+    </a>
+    <p>
+      <a href="{{site.baseurl}}/ariel.bitan/" style="text-decoration: none">Ariel Bitan [MSc]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <a href="{{site.baseurl}}/or.eliav/">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
+    </a>
+    <p>
+      <a style="text-decoration: none">Or Eliav</a>
     </p>
   </div>
 
