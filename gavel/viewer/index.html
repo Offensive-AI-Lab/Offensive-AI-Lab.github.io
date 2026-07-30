@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GAVEL Rules Library Viewer</title>
+<link rel="icon" type="image/png" id="favicon">
 <style>
   :root {
     --bg: #f6f7f9; --panel: #ffffff; --ink: #1a1f2b; --muted: #6b7280;
@@ -29,6 +30,8 @@
   * { box-sizing: border-box; }
   body { margin: 0; font: 15px/1.55 -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--ink); }
   header { padding: 18px 24px 0; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { width: 42px; height: 42px; }
   h1 { font-size: 20px; margin: 0 0 2px; }
   h1 small { color: var(--muted); font-weight: 400; font-size: 13px; margin-left: 8px; }
   .layout { display: flex; gap: 18px; padding: 14px 24px 40px; align-items: flex-start; }
@@ -116,7 +119,10 @@
 </head>
 <body>
 <header>
-  <h1>GAVEL Rules Library <small id="stats"></small></h1>
+  <div class="brand">
+    <img id="logo" alt="" onerror="this.remove()">
+    <h1>GAVEL Rules Library <small id="stats"></small></h1>
+  </div>
   <nav class="tabs" id="tabs"></nav>
 </header>
 <div class="layout">
@@ -133,6 +139,8 @@
 // served from a local checkout, it reads the files next to it.
 const DATA_BASE = /(^|\.)offensive-ai-lab\.com$|(^|\.)github\.io$/.test(location.hostname)
   ? 'https://raw.githubusercontent.com/Offensive-AI-Lab/gavel-rules/main/' : '';
+document.getElementById('logo').src = DATA_BASE + 'assets/gavel-icon.png';
+document.getElementById('favicon').href = DATA_BASE + 'assets/gavel-icon.png';
 const state = { tab: 'rules', idx: null, sel: null, cache: {}, role: '' };
 
 async function j(path) {
