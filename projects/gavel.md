@@ -16,7 +16,7 @@ permalink: /projects/gavel/
       <a href="https://blackhat.com/us-26/briefings/schedule/#rules-for-neural-traffic-a-new-defensive-layer-for-llms-53675" style="text-decoration:none;">
         <span style="display:inline-block; margin:4px; padding:6px 14px; border:1px solid rgba(255,255,255,0.35); border-radius:16px; font-size:0.85em; white-space:nowrap; background:rgba(0,0,0,0.25);">🎤 Black Hat USA 2026</span>
       </a>
-      <a href="https://github.com/Offensive-AI-Lab/gavel" style="text-decoration:none;">
+      <a href="https://github.com/Offensive-AI-Lab/gavel-rules" style="text-decoration:none;">
         <span style="display:inline-block; margin:4px; padding:6px 14px; border:1px solid rgba(255,255,255,0.35); border-radius:16px; font-size:0.85em; white-space:nowrap; background:rgba(0,0,0,0.25);">💻 Open Source</span>
       </a>
     </p>
@@ -74,13 +74,13 @@ Think of it as a security camera for a model's mind. As the LLM processes a prom
   <div style="flex: 1 1 280px; max-width: 320px; padding: 20px; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px;">
     <h3 style="margin-top:0;">⚙️ GAVEL</h3>
     <p style="opacity:0.85; font-size:0.95em;">The open-source core engine: extract activations, train Cognitive Element probes, calibrate thresholds, and evaluate rule-based safety policies.</p>
-    <a href="https://github.com/Offensive-AI-Lab/gavel">github.com/Offensive-AI-Lab/gavel →</a>
+    <a href="https://github.com/Offensive-AI-Lab/gavel-rules">github.com/Offensive-AI-Lab/gavel-rules →</a>
   </div>
 
   <div style="flex: 1 1 280px; max-width: 320px; padding: 20px; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px;">
     <h3 style="margin-top:0;">🖥️ GAVEL Studio</h3>
     <p style="opacity:0.85; font-size:0.95em;">A web GUI for authoring rules in plain English, AI-assisted ("agentic") rule and CE generation, live monitoring, and one-click access to the community rule registry.</p>
-    <a href="https://github.com/Offensive-AI-Lab/gavel-studio-v2.0">github.com/Offensive-AI-Lab/gavel-studio-v2.0 →</a>
+    <a href="https://github.com/Offensive-AI-Lab/gavel-studio">github.com/Offensive-AI-Lab/gavel-studio →</a>
   </div>
 
   <div style="flex: 1 1 280px; max-width: 320px; padding: 20px; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px;">
