@@ -122,7 +122,9 @@ Stanford University, Real World AI Security (USA 2026)
 
 ## Get Involved
 
-GAVEL is built to grow with its community. Explore the code, try GAVEL Studio, or reach out if you'd like to contribute a rule, a Cognitive Element, or an integration.
+GAVEL is built to grow with its community. Explore the code, try GAVEL Studio, or reach out if you'd like to contribute a rule, a Cognitive Element, or an integration. Join the discussion in the **#gavel-community** channel on our Discord:
+
+<p align="center"><iframe src="https://discord.com/widget?id=1013392970290045011&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
 
 <p align="center">
   <a href="https://github.com/Offensive-AI-Lab">Offensive AI Lab on GitHub</a> &middot; <a href="{{site.baseurl}}/contact/">Contact Us</a>
