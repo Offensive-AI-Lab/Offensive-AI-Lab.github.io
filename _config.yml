@@ -1,4 +1,5 @@
 title: Offensive AI Lab
+url: "https://offensive-ai-lab.com"
 author:
   name: Offensive AI Research Lab
   email: Offensive.AI.Lab@gmail.com
@@ -63,3 +64,4 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-redirect-from
+ - jekyll-sitemap

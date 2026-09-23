@@ -2,6 +2,8 @@
 layout: default
 title: GAVEL
 permalink: /projects/gavel/
+description: "GAVEL brings rule-based, signature-style cyber defense to AI safety: robust, auditable rules that monitor an LLM's internal activations and block unsafe behavior without retraining the model. ICLR 2026 (Rank A*), presented at Black Hat USA 2026."
+image: /assets/images/gavel-hero.webp
 ---
 
 <div style="position:relative; width:100vw; margin-left:calc(-50vw + 50%); margin-right:calc(-50vw + 50%); height:clamp(280px, 38vw, 480px); background-image:url('{{site.baseurl}}/assets/images/gavel-hero.webp'); background-size:cover; background-position:right center; display:flex; align-items:center; overflow:hidden;">

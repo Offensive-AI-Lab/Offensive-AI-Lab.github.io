@@ -19,6 +19,12 @@ The `Offensive AI Lab` (OAI Lab) studies how adversaries use AI to enhance their
 
 <p>&nbsp;</p>
 
+## Featured Project
+
+**[GAVEL](/projects/gavel/)** brings rule-based, signature-style cyber defense to AI safety — auditable rules that monitor an LLM's internal activations and block unsafe behavior without retraining the model. Accepted to ICLR 2026 (Rank A*) and presented at Black Hat USA 2026. [Read more &rarr;](/projects/gavel/)
+
+<p>&nbsp;</p>
+
 ## Our Supporters
 
 This lab has is supported by the Zuckerman STEM Leadership Program

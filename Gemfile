@@ -8,4 +8,5 @@ gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
 
 # Declared in _config.yml; provided automatically on GitHub Pages, added here for local builds
 gem "jekyll-redirect-from"
+gem "jekyll-sitemap"
 
