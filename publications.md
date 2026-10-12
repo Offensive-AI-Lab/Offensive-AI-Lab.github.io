@@ -13,9 +13,10 @@ Our work is making a significant impact on research, polices, and public opinion
 - Voice Deepfakes: <br/>[protocol](https://www.protocol.com/enterprise/deepfake-voice-cyberattack-ai-audio) and [Fortune](https://fortune.com/2022/09/03/live-deepfakes-detect-methods-zoom-fraud/?gbd367)
 - Security of AI Assistants (GPTs): <br/>[ARS Technica](https://arstechnica.com/security/2024/03/hackers-can-read-private-ai-assistant-chats-even-though-theyre-encrypted/), [Cloudflare](https://blog.cloudflare.com/ai-side-channel-attack-mitigated), and [The Register](https://www.theregister.com/2024/03/18/chatgpt_sidechannel_attack_has_easy/).
 - Preventing Deepfake Calls: [The Register](https://www.theregister.com/2025/06/19/voice_altering_vishing_jammer/)
+- AI in Romance-Baiting Scams: <br/>[Wired](https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/), [9to5Mac](https://9to5mac.com/2026/07/30/ai-chatbots-are-now-better-than-humans-at-romance-scams-and-thats-scary/), [SC Media](https://www.scworld.com/brief/ai-chatbots-outperform-humans-in-building-trust-for-scams), [Accounting Today](https://www.accountingtoday.com/news/study-finds-bots-2-5x-more-effective-scammers-than-humans), [Help Net Security](https://www.helpnetsecurity.com/2025/12/29/llms-romance-baiting-scams-study/), [Bitdefender](https://www.bitdefender.com/en-us/blog/hotforsecurity/new-research-shows-how-ai-is-powering-romance-baiting-scams), and [KnowBe4](https://blog.knowbe4.com/ai-chatbots-outperform-humans-at-building-trust-in-scams).
 
 <p float="left">
-  <a href="https://www.wired.com/story/tesla-model-x-autopilot-phantom-images/"><img src="{{site.baseurl}}/assets/logos/Wired.png" width="140" style="margin: 15px;"/></a>
+  <a href="https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/"><img src="{{site.baseurl}}/assets/logos/Wired.png" width="140" style="margin: 15px;"/></a>
   <a href="https://www.washingtonpost.com/technology/2019/04/03/hospital-viruses-fake-cancerous-nodes-ct-scans-created-by-malware-trick-radiologists/"><img src="{{site.baseurl}}/assets/logos/wp.png" width="100" style="margin: 15px;"/></a>
   <a href="https://www.forbes.com/sites/daveywinder/2019/04/05/malware-removes-cancer-tumors-from-ct-scans-and-fools-radiologists/"><img src="{{site.baseurl}}/assets/logos/forbes.png" width="120" style="margin: 15px;"/></a>
 <a href="https://techcrunch.com/2020/01/10/medical-images-exposed-pacs/"><img src="{{site.baseurl}}/assets/logos/tc2.png" width="80" style="margin: 15px;"/></a>
@@ -35,9 +36,13 @@ Our work is making a significant impact on research, polices, and public opinion
 
 The following is a selection of our publications. Stay tuned *-we've only just begun!*
 
+- [PRISM: Recovering Instruction Sets from Language Model Activations](https://arxiv.org/pdf/2606.09563). Gilad Gressel, Rahul Pankajakshan, Julia Diament, Efim Hudis, Krishnashree Achuthan, Yisroel Mirsky. EMNLP 2026. `Rank A*`
+- [Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents](https://arxiv.org/pdf/2607.19837). Or Zion Eliav, Eyal Lenga, Shir Bernstein, Yisroel Mirsky. ACSAC 2026. `Rank A`
+- [Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams](https://www.usenix.org/conference/usenixsecurity26/presentation/gressel). Gilad Gressel, Rahul Pankajakshan, Shir Rozenfeld, Ling Li, Ivan Franceschini, Krishnashree Achuthan, Yisroel Mirsky. USENIX Security 2026. `Rank A*` `Runner-up Distinguished Paper Award`
 - [GAVEL: Towards rule-based safety through activation monitoring](https://arxiv.org/pdf/2601.19768). Shir Rozenfeld, Rahul Pankajakshan, Itay Zloczower, Eyal Lenga, Gilad Gressel, Yisroel Mirsky. ICLR 2026. `Rank A*`
 - [Memory Backdoor Attacks on Neural Networks](https://arxiv.org/pdf/2411.14516). Eden Luzon, Roy Weiss, Torsten Krauss, Alexandra Dimitrienko, Yisroel Mirsky.  NDSS 2026. `Rank A*`
 - [Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias](https://arxiv.org/pdf/2508.17361) Shir Bernstein, David Beste, Daniel Ayzenshteyn, Lea Schönherr, Yisroel Mirsky.  NDSS 2026. `Rank A*`
+- [Boundary Sampling for Efficient Model Extraction](https://dl.acm.org/doi/pdf/10.1145/3834856) Doron Ben Chayim, Maor Biton Dor, Eyal Lenga, Yisroel Mirsky. ACM TIST. 2026 `Rank Q1`
 - [Cloak, Honey, Trap: Proactive Defenses Against LLM Agents](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf) D Ayzenshteyn, R Weiss, Y Mirsky. USENIX Security 2025 `Rank A*`
 - [The Threat of Deepfake Fingerprints](https://dl.acm.org/doi/pdf/10.1145/3709022) Y Hacmon, K Gorelik, Y Mirsky. WDC, 2025 `Best Paper Award`
 - [PEAS: A Strategy for Crafting Transferable Adversarial Examples](https://dl.acm.org/doi/pdf/10.1145/3763003) B Avraham, Y Mirsky. ACM TIST. 2025 `Rank Q1`.‏
