@@ -52,10 +52,24 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
   - about.md
-  - contact.md
-  - members.md
+  - research.html
   - publications.md
-  - projects/gavel.md
+  - members.md
+  - contact.md
+
+# Research pages: one Markdown file per project in _research/ (see _research/_TEMPLATE.md).
+# Each becomes /research/<file-name>/, appears on the /research/ hub, and gets a home-page tile.
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: research
+    values:
+      layout: research
 
 # Build settings
 theme: minima

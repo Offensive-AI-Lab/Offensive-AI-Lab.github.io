@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+    <main class="page-content page-content--flush" aria-label="Content">
+      <article class="research">
+
+        <header class="rhero" style="background-image:url('{{ page.image | relative_url }}'); background-position:{{ page.hero_position | default: 'center' }};">
+          <div class="rhero-inner wrapper">
+            <a class="rhero-crumb" href="{{ '/research/' | relative_url }}">{% include research-icon.html name="arrow-left" %}<span>Research</span></a>
+            {%- if page.venues -%}
+            <div class="rhero-venues">
+              {%- for v in page.venues -%}
+                {%- if v.url -%}
+                {%- assign c0 = v.url | slice: 0 -%}
+                <a class="rpill" href="{% if c0 == '/' %}{{ v.url | relative_url }}{% else %}{{ v.url }}{% endif %}">{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</a>
+                {%- else -%}
+                <span class="rpill">{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</span>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+            {%- endif -%}
+            <h1 class="rhero-title">{{ page.title | escape }}</h1>
+            {%- if page.subtitle -%}<p class="rhero-subtitle">{{ page.subtitle }}</p>{%- endif -%}
+            {%- if page.links -%}
+            <div class="rhero-actions">
+              {%- for l in page.links -%}
+              {%- comment -%} relative_url only for site paths; leave https://, mailto: and #anchors untouched {%- endcomment -%}
+              {%- assign c0 = l.url | slice: 0 -%}
+              <a class="rbtn{% if forloop.first %} rbtn--primary{% endif %}" href="{% if c0 == '/' %}{{ l.url | relative_url }}{% else %}{{ l.url }}{% endif %}">{% include research-icon.html name=l.icon %}<span>{{ l.label }}</span></a>
+              {%- endfor -%}
+            </div>
+            {%- endif -%}
+          </div>
+        </header>
+
+        <div class="wrapper">
+
+          {%- if page.authors or page.topics -%}
+          <dl class="rmeta">
+            {%- if page.authors -%}
+            <div class="rmeta-row">
+              <dt>Authors</dt>
+              <dd>
+                {%- for name in page.authors -%}
+                  {%- comment -%} Link authors who have a lab member page (/first.last/). {%- endcomment -%}
+                  {%- capture member_url -%}/{{ name | downcase | replace: " ", "." }}/{%- endcapture -%}
+                  {%- assign member = site.pages | where: "url", member_url | first -%}
+                  {%- if member -%}<a href="{{ member_url | relative_url }}">{{ name }}</a>{%- else -%}{{ name }}{%- endif -%}
+                  {%- unless forloop.last %}, {% endunless -%}
+                {%- endfor -%}
+              </dd>
+            </div>
+            {%- endif -%}
+            {%- if page.topics -%}
+            <div class="rmeta-row">
+              <dt>Topics</dt>
+              <dd class="rchips">{% for t in page.topics %}<span class="rchip">{{ t }}</span>{% endfor %}</dd>
+            </div>
+            {%- endif -%}
+          </dl>
+          {%- endif -%}
+
+          <div class="research-body">
+            {{ content }}
+          </div>
+
+          {%- if page.bibtex -%}
+          <section class="rcite">
+            <h2 id="cite">Cite This Work</h2>
+            <div class="rcite-box">
+              <button class="rcite-copy" type="button">{% include research-icon.html name="copy" %}<span>Copy</span></button>
+              <pre><code>{{ page.bibtex | strip | xml_escape }}</code></pre>
+            </div>
+          </section>
+          <script>
+            document.querySelectorAll('.rcite-copy').forEach(function (btn) {
+              btn.addEventListener('click', function () {
+                var label = btn.querySelector('span');
+                navigator.clipboard.writeText(btn.parentNode.querySelector('code').innerText).then(function () {
+                  label.textContent = 'Copied';
+                  setTimeout(function () { label.textContent = 'Copy'; }, 1600);
+                });
+              });
+            });
+          </script>
+          {%- endif -%}
+
+          {%- assign others = site.research | where_exp: "d", "d.url != page.url" -%}
+          {%- if others.size > 0 -%}
+          <section class="rmore">
+            <h2>More Research</h2>
+            {% include research-tiles.html items=others show_all=true %}
+          </section>
+          {%- endif -%}
+
+          {%- if page.funding == "erc" -%}
+            {% include funding-erc.html %}
+          {%- endif -%}
+
+        </div>
+      </article>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

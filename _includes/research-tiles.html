@@ -1,0 +1,27 @@
+{%- comment -%}
+  Compact icon + short-title tiles linking to research pages (home page, "More research").
+  Params: items (default: all research, newest first), limit (default 7), show_all (adds a "Browse all" tile).
+  Tile art is `icon` (square image) if set, otherwise a crop of `image` centred on `thumb_position`.
+{%- endcomment -%}
+{%- assign items = include.items | default: site.research | sort: "date" | reverse -%}
+{%- assign lim = include.limit | default: 7 -%}
+<div class="rtiles">
+  {%- for doc in items limit: lim -%}
+  <a class="rtile" href="{{ doc.url | relative_url }}" title="{{ doc.title | escape }}{% if doc.subtitle %}: {{ doc.subtitle | escape }}{% endif %}">
+    {%- if doc.icon -%}
+    <span class="rtile-icon"><img src="{{ doc.icon | relative_url }}" alt="" loading="lazy"></span>
+    {%- else -%}
+    <span class="rtile-icon" style="background-image:url('{{ doc.image | relative_url }}'); background-position:{{ doc.thumb_position | default: 'center' }};"></span>
+    {%- endif -%}
+    <span class="rtile-title">{{ doc.short_title | default: doc.title }}</span>
+    {%- if doc.venues -%}<span class="rtile-meta">{{ doc.venues[0].label }}</span>{%- endif -%}
+  </a>
+  {%- endfor -%}
+  {%- if include.show_all -%}
+  <a class="rtile rtile--all" href="{{ '/research/' | relative_url }}">
+    <span class="rtile-icon">{% include research-icon.html name="grid" %}</span>
+    <span class="rtile-title">All research</span>
+    <span class="rtile-meta">Browse projects</span>
+  </a>
+  {%- endif -%}
+</div>

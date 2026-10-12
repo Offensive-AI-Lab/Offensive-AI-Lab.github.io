@@ -1,0 +1,54 @@
+---
+layout: default
+title: Research
+permalink: /research/
+description: "Selected research projects from the Offensive AI Lab at Ben-Gurion University: dedicated pages with papers, code, talks, and tools for our work on AI safety and AI-driven threats."
+filter_min: 4 # topic filters appear once there are at least this many projects
+---
+
+{%- assign docs = site.research | sort: "date" | reverse -%}
+
+<section class="rhub">
+
+  <header class="rhub-head">
+    <p class="reyebrow">Offensive AI Lab</p>
+    <h1 class="rhub-title">Research</h1>
+    <p class="rhub-lead">Selected projects from the lab, each with its own page covering the problem, our approach, and the papers, code, talks, and tools that came out of it. For the full list of our papers, see <a href="{{ '/publications/' | relative_url }}">Publications</a>.</p>
+  </header>
+
+  {%- if docs.size >= page.filter_min -%}
+  {%- assign topics = docs | map: "topics" | join: "|" | split: "|" | uniq | sort -%}
+  <div class="rfilters" role="toolbar" aria-label="Filter by topic">
+    <button class="rfilter is-active" type="button" data-topic="">All</button>
+    {%- for t in topics -%}
+    <button class="rfilter" type="button" data-topic="{{ t | slugify }}">{{ t }}</button>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+  <div class="rgrid">
+    {%- for doc in docs -%}
+      {% include research-card.html doc=doc spotlight=forloop.first %}
+    {%- endfor -%}
+  </div>
+
+</section>
+
+{%- if docs.size >= page.filter_min %}
+<script>
+  (function () {
+    var buttons = document.querySelectorAll('.rfilter');
+    var cards = document.querySelectorAll('.rgrid .rcard');
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var topic = btn.getAttribute('data-topic');
+        buttons.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+        cards.forEach(function (card) {
+          var match = !topic || (' ' + card.getAttribute('data-topics') + ' ').indexOf(' ' + topic + ' ') !== -1;
+          card.hidden = !match;
+        });
+      });
+    });
+  })();
+</script>
+{%- endif %}

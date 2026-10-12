@@ -1,0 +1,21 @@
+{%- comment -%}
+  A research card for the /research/ hub. Params: doc, spotlight (wide horizontal variant).
+{%- endcomment -%}
+{%- assign doc = include.doc -%}
+<a class="rcard{% if include.spotlight %} rcard--spotlight{% endif %}" href="{{ doc.url | relative_url }}" data-topics="{% for t in doc.topics %}{{ t | slugify }} {% endfor %}">
+  <div class="rcard-media" style="background-image:url('{{ doc.image | relative_url }}'); background-position:{{ doc.thumb_position | default: 'center' }};"></div>
+  <div class="rcard-body">
+    {%- if doc.venues -%}
+    <div class="rcard-venues">
+      {%- for v in doc.venues -%}<span class="rpill">{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</span>{%- endfor -%}
+    </div>
+    {%- endif -%}
+    <h2 class="rcard-title">{{ doc.title }}</h2>
+    {%- if doc.subtitle -%}<p class="rcard-subtitle">{{ doc.subtitle }}</p>{%- endif -%}
+    {%- if doc.description -%}<p class="rcard-summary">{{ doc.description }}</p>{%- endif -%}
+    {%- if doc.topics -%}
+    <div class="rchips">{% for t in doc.topics %}<span class="rchip">{{ t }}</span>{% endfor %}</div>
+    {%- endif -%}
+    <span class="rcard-cta">Explore the project {% include research-icon.html name="arrow-right" %}</span>
+  </div>
+</a>
