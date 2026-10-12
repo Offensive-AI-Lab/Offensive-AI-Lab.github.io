@@ -13,9 +13,9 @@ layout: home
 
 
 
-**`Offensive AI`** is the use of artificial intelligence for malicious purposes including attacks on AI systems (a.k.a. adversarial machine learning) and attacks powered by AI (deepfakes, swarm malware, ML for zero-day detection, and so on). 
+**`Offensive AI`** is the malicious use of artificial intelligence to power, automate, and scale cyberattacks, as well as attacks targeting AI systems themselves. It includes autonomous attack agents, AI-driven vulnerability discovery and exploitation, adaptive malware, deepfakes, and automated social engineering, alongside attacks on AI models and agents through prompt injection, adversarial machine learning, data poisoning, agent hijacking, tool misuse, and supply chain compromise.
 
-The `Offensive AI Lab` (OAI Lab) studies how adversaries use AI to enhance their attacks. The objective of the lab is to protect society by identifying and mitigating AI threats before they become mainstream. We are located in the BGU Cyber Security Research Center in Be'er Sheva Israel.
+The `Offensive AI Lab` (OAI Lab) studies how adversaries use AI to enhance their attacks and exploit AI systems. The objective of the lab is to protect society by improving AI safety and by identifying and mitigating AI threats before they become mainstream. We are located in the BGU Cyber Security Research Center in Be'er Sheva Israel.
 
 <p>&nbsp;</p>
 
