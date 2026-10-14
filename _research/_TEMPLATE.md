@@ -19,6 +19,8 @@ thumb: /assets/images/PROJECT-thumb.jpg # optional 16:9 card image (~960x540) wi
                                         # home tile uses its centre. Without it, cards/tiles crop `image` at:
 thumb_position: 50% 50%                 # focus point for those crops (x% y%), used only when there is no `thumb`
 # icon: /assets/images/PROJECT-icon.png # optional square logo for the home tile (otherwise a crop of `image`)
+# redirect_to: /REPO/                  # optional: the project has its own site (e.g. GitHub Pages in Offensive-AI-Lab/REPO,
+                                        # served at /REPO/). Cards and tiles link there, and /research/<slug>/ redirects to it.
 
 venues:                                 # small pills above the title; first one also shows under the tile
   - label: VENUE 2026

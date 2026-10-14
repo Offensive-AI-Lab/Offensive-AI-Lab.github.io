@@ -2,7 +2,7 @@
   A research card for the /research/ hub. Params: doc, spotlight (wide horizontal variant).
 {%- endcomment -%}
 {%- assign doc = include.doc -%}
-<a class="rcard{% if include.spotlight %} rcard--spotlight{% endif %}" href="{{ doc.url | relative_url }}" data-topics="{% for t in doc.topics %}{{ t | slugify }} {% endfor %}">
+<a class="rcard{% if include.spotlight %} rcard--spotlight{% endif %}" href="{{ doc.redirect_to | default: doc.url | relative_url }}" data-topics="{% for t in doc.topics %}{{ t | slugify }} {% endfor %}">
   {%- if doc.thumb -%}
   <div class="rcard-media" style="background-image:url('{{ doc.thumb | relative_url }}');">
   {%- else -%}

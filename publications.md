@@ -36,7 +36,7 @@ Our work is making a significant impact on research, polices, and public opinion
 
 The following is a selection of our publications. Stay tuned *-we've only just begun!*
 
-- [PRISM: Recovering Instruction Sets from Language Model Activations](https://arxiv.org/pdf/2606.09563). Gilad Gressel, Rahul Pankajakshan, Julia Diament, Efim Hudis, Krishnashree Achuthan, Yisroel Mirsky. EMNLP 2026. `Rank A*` [Project page &rarr;]({{site.baseurl}}/research/prism/)
+- [PRISM: Recovering Instruction Sets from Language Model Activations](https://arxiv.org/pdf/2606.09563). Gilad Gressel, Rahul Pankajakshan, Julia Diament, Efim Hudis, Krishnashree Achuthan, Yisroel Mirsky. EMNLP 2026. `Rank A*` [Project page &rarr;]({{site.baseurl}}/prism/)
 - [Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents](https://arxiv.org/pdf/2607.19837). Or Zion Eliav, Eyal Lenga, Shir Bernstein, Yisroel Mirsky. ACSAC 2026. `Rank A` [Project page &rarr;]({{site.baseurl}}/research/know-your-agent/)
 - [Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams](https://www.usenix.org/conference/usenixsecurity26/presentation/gressel). Gilad Gressel, Rahul Pankajakshan, Shir Rozenfeld, Ling Li, Ivan Franceschini, Krishnashree Achuthan, Yisroel Mirsky. USENIX Security 2026. `Rank A*` `Runner-up Distinguished Paper Award` [Project page &rarr;]({{site.baseurl}}/research/love-lies/)
 - [GAVEL: Towards rule-based safety through activation monitoring](https://arxiv.org/pdf/2601.19768). Shir Rozenfeld, Rahul Pankajakshan, Itay Zloczower, Eyal Lenga, Gilad Gressel, Yisroel Mirsky. ICLR 2026. `Rank A*` [Project page &rarr;]({{site.baseurl}}/research/gavel/)
