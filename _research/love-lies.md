@@ -5,7 +5,7 @@ subtitle: "How AI is entering romance-baiting scams, and why today's safeguards 
 description: "Interviews with 145 scam-compound insiders, a blinded week-long conversation study, and a safeguard evaluation show that LLMs are already used in romance-baiting scams, out-perform human operators at building trust, and evade today's safety filters. USENIX Security 2026, Distinguished Paper Award runner-up."
 date: 2026-10-14 # used for ordering only (newest first)
 last_modified_at: 2026-10-14 # bump when you edit this page (sitemap "last modified" for Google)
-redirect_to: /scam-moderator-eval/ # full project site, deployed from Offensive-AI-Lab/scam-moderator-eval (site/)
+redirect_to: /love-lies/ # full project site, deployed from Offensive-AI-Lab/love-lies (site/)
 image: /assets/images/love-lies-hero.jpg
 hero_position: right center
 thumb: /assets/images/love-lies-thumb.jpg
@@ -22,7 +22,7 @@ links:
     url: https://www.usenix.org/conference/usenixsecurity26/presentation/gressel
     icon: paper
   - label: Datasets & Code
-    url: https://github.com/Offensive-AI-Lab/scam-moderator-eval
+    url: https://github.com/Offensive-AI-Lab/love-lies
     icon: library
   - label: Featured in WIRED
     url: https://www.wired.com/story/ai-scammers-are-better-at-building-trust-than-humans/
