@@ -4,6 +4,7 @@ short_title: Trust Me
 subtitle: "Hijacking LLM static analysis with Familiar Pattern Attacks."
 description: "Familiar Pattern Attacks exploit an abstraction bias in LLMs: tiny, behavior-preserving edits to familiar code make models misread what a program does. They transfer across models and languages and fool commercial code agents. NDSS 2026."
 date: 2026-02-23 # used for ordering only (newest first)
+last_modified_at: 2026-10-13 # bump when you edit this page (sitemap "last modified" for Google)
 image: /assets/images/trust-me-hero.jpg
 hero_position: right center
 thumb: /assets/images/trust-me-thumb.jpg

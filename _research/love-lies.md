@@ -4,6 +4,7 @@ short_title: "Love, Lies & LLMs"
 subtitle: "How AI is entering romance-baiting scams, and why today's safeguards miss it."
 description: "Interviews with 145 scam-compound insiders, a blinded week-long conversation study, and a safeguard evaluation show that LLMs are already used in romance-baiting scams, out-perform human operators at building trust, and evade today's safety filters. USENIX Security 2026, Distinguished Paper Award runner-up."
 date: 2026-08-12 # used for ordering only (newest first)
+last_modified_at: 2026-10-13 # bump when you edit this page (sitemap "last modified" for Google)
 image: /assets/images/love-lies-hero.jpg
 hero_position: right center
 thumb: /assets/images/love-lies-thumb.jpg

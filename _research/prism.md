@@ -4,6 +4,7 @@ short_title: PRISM
 subtitle: "Reading the instructions that steer an LLM, straight from its activations."
 description: "PRISM decodes a frozen LLM's hidden states into a faithful list of the instructions, constraints, and hidden objectives steering it, including prompt injections that never surface in the model's output. EMNLP 2026."
 date: 2026-09-27 # used for ordering only (newest first)
+last_modified_at: 2026-10-13 # bump when you edit this page (sitemap "last modified" for Google)
 image: /assets/images/prism-hero.jpg
 hero_position: right center
 thumb: /assets/images/prism-thumb.jpg

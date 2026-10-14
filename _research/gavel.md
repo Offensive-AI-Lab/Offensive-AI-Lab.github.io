@@ -4,6 +4,7 @@ short_title: GAVEL
 subtitle: "Rule-based safety for LLMs — bringing signature-based cyber defense to AI."
 description: "GAVEL brings rule-based, signature-style cyber defense to AI safety: robust, auditable rules that monitor an LLM's internal activations and block unsafe behavior without retraining the model. ICLR 2026 (Rank A*), presented at Black Hat USA 2026."
 date: 2026-04-23 # used for ordering only (newest first)
+last_modified_at: 2026-10-13 # bump when you edit this page (sitemap "last modified" for Google)
 featured: true   # pinned: leads the hub (spotlight card) and the home tiles
 image: /assets/images/gavel-hero.webp
 hero_position: right center

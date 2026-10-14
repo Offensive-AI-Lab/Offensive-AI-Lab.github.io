@@ -12,6 +12,7 @@ short_title: NAME                       # label under the home-page tile (keep i
 subtitle: "One-line tagline that says what it does."
 description: "Two-sentence pitch. Used on the /research/ card and as the Google / social-media description."
 date: 2026-01-01                        # ordering only (newest first); never displayed
+last_modified_at: 2026-01-01            # when the page last changed; bump on every edit (tells Google via the sitemap)
 image: /assets/images/PROJECT-hero.webp # hero background, card thumbnail, and social-media preview image
 hero_position: right center             # CSS background-position for the hero
 thumb: /assets/images/PROJECT-thumb.jpg # optional 16:9 card image (~960x540) with the subject centred; the
