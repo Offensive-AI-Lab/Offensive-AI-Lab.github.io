@@ -6,41 +6,58 @@ permalink: /about/
 
 ## What is Offensive AI?
 
-AI has provided us with the ability to automate tasks, extract information from vast amounts of data, and synthesize media that is nearly indistinguishable from the real thing. However, positive tools can also be used for negative purposes. In particular, cyber adversaries can also use AI, but to enhance their attacks and expand their campaigns. 
+`Offensive AI` is the malicious use of artificial intelligence to power, automate, and scale cyberattacks, as well as attacks that target AI systems themselves. It takes two forms:
 
-There are two forms of offensive AI: `attacks using AI` and `attacks against AI`. For example, an adversary can (1) use AI to improve the efficiency of an attack (e.g., information gathering, attack automation, and vulnerability discovery) or (2) use knowledge of AI to exploit the defender's AI products and solutions (e.g., to evade a defense or to plant a trojan in a product). The latter form of offensive AI is commonly referred to as adversarial machine learning.
+- **Attacks using AI:** AI makes the attacker faster, cheaper, and more convincing, from automated reconnaissance, intrusion, and vulnerability discovery to adaptive malware, deepfakes, and social engineering at scale.
+- **Attacks against AI:** the adversary exploits the AI that people and organizations rely on, through prompt injection, agent hijacking, jailbreaks, data poisoning, model theft, and adversarial examples that evade AI-based defenses.
 
-Over the last few years, adversaries have begun to use offensive AI. For example, attackers have poisoned models,[^poison] evaded defenses,[^evade]  scammed companies[^ceo] and individuals,[^widow] ruined reputations,[^prn][^cheer] impersonated political leaders,[^impersonation] and spread misinformation.[^leader] In the coming years, we can expect to see more attacks emerge as our adversaries become aware of how AI can improve the coverage, speed and success of their attack campaigns, and as AI becomes even more accessible to novice users. 
+## From Prediction to Reality
 
-Many cybersecurity organizations feel that offensive AI is an imminent threat,[^forrester] and companies are investing to counter offensive AI.[^mit] However, although the threat has been acknowledged, we are grossly unprepared. According to the US National Security Commission on AI in 2021,
+When we founded the lab in 2020, offensive AI was largely a prediction, with a handful of early incidents such as the poisoning of Microsoft's Tay chatbot[^tay] and adversarial evasion of an AI-based antivirus.[^cylance] Since then, large language models (LLMs) and AI agents have made it part of the everyday threat landscape:
 
->The U.S. government is not prepared to defend the United States in the coming artificial intelligence (AI) era. ...Because of AI, adversaries will be able to act with micro-precision, but at macro-scale and with greater speed. They will use AI to enhance cyber attacks and digital disinformation campaigns and to target individuals in new ways.'' 
+- **Deepfakes and impersonation.** In 2024, a finance worker at the engineering firm Arup transferred about $25 million after a video call in which every other participant was a deepfake of the company's executives.[^arup] In 2025, the FBI warned of an ongoing campaign using AI-generated voice messages to impersonate senior US officials.[^fbi]
+- **AI in the attacker's toolkit.** Microsoft and OpenAI reported state-affiliated groups from Russia, North Korea, Iran, and China using LLMs to support their operations,[^msft] and Google has since found malware that queries an LLM while it runs to rewrite itself and evade detection.[^gtig]
+- **AI agents carrying out attacks.** In 2025, Anthropic reported a criminal using its Claude Code agent to automate a data-theft and extortion campaign against at least 17 organizations.[^vibe] Months later, it disrupted what it called the first reported AI-orchestrated cyber-espionage campaign, attributed to a state-sponsored group, in which AI performed 80–90% of the work.[^espionage]
+- **Fraud at scale.** Our own interviews with 145 scam-compound insiders found that LLMs are already used in romance-baiting scams, and in a blinded study an LLM agent out-performed human scammers at building trust.[^lovelies]
+- **Attacks on AI systems.** As LLMs become agents with access to email, files, and tools, prompt injection is ranked the top risk for LLM applications.[^owasp] In 2025, researchers disclosed EchoLeak, a since-patched zero-click prompt injection that could make Microsoft 365 Copilot leak internal data through a single email.[^echoleak]
 
-To counter the threat of offensive AI, we need to anticipate the adversary's next move and devise countermeasures which can prevent a reactive arms race.
+## Are We Prepared?
+
+Security agencies expect the threat to keep growing. In its 2024 assessment, the UK's National Cyber Security Centre concluded:
+
+> "Artificial intelligence (AI) will almost certainly increase the volume and heighten the impact of cyber attacks over the next two years."[^ncsc]
+
+Defenses are struggling to keep up. Our recent work shows that popular safety filters miss AI-driven romance scams,[^lovelies] that AI agents can be hijacked through the content they read,[^kya] and that LLMs reviewing code can be fooled into misreading what it does.[^trustme] To counter offensive AI, we need to anticipate the adversary's next move and build countermeasures before new attacks become mainstream, rather than racing to patch them afterward.
 
 ## Our Lab
 
-![image]({{site.baseurl}}/assets/images/gavyam.jpg){: style="float: left; margin-right:10px" width="300px"} 
+![image]({{site.baseurl}}/assets/images/gavyam.jpg){: style="float: left; margin-right:10px" width="300px"}
 
-The `Offensive AI Research Lab` was founded in 2020 with the goal of producing research which can help the world prepare for the emergence of offensive AI. Instead of just 'patching' the problem, we are working on ways to give the defender the upper hand by putting the adversary at a disadvantage.  We are a friendly group of researchers and hackers who have a passion for AI and cyber security. We strongly believe that AI should never be used to cause physical, financial, or psychological harm. However, we understand that cyber criminals do not hold by the same code of ethics as we do. Therefore, it is our mission to identify, counter, and mitigate the threat of offensive AI to help protect society.
+The `Offensive AI Research Lab` was founded in 2020 at Ben-Gurion University of the Negev with the goal of producing research that helps the world prepare for offensive AI. Instead of just "patching" the problem, we work on ways to give defenders the upper hand by putting the adversary at a disadvantage.
+
+Today our research spans AI agent security, LLM safety and monitoring, AI-driven fraud and deepfakes, and adversarial machine learning. Our work appears at top venues such as USENIX Security, NDSS, ICLR, EMNLP, and ACSAC, has been presented at Black Hat and DEF CON, and has been covered by outlets including WIRED and The Washington Post. In 2025, the lab was awarded an ERC Starting Grant (AGI-Safety). Explore our [featured research]({{site.baseurl}}/research/) and full list of [publications]({{site.baseurl}}/publications/).
+
+We are a friendly group of researchers and hackers with a passion for AI and cyber security. We strongly believe that AI should never be used to cause physical, financial, or psychological harm. However, cyber criminals do not hold by the same code of ethics. It is therefore our mission to identify, counter, and mitigate the threat of offensive AI to help protect society.
 
 ## Join Us!
 
-We are currently seeking excellent students and post-docs who are eager to research offensive AI. Whether you are captivated by deepfakes, concerned about AI-powered attacks, or just want to exploit machine learning models, we would love to work with you in our labs! You can make a difference in the world, and we'd be honored to make that difference with you. Generous stipends are available for suitable candidates.
+We are currently seeking excellent students and post-docs who are eager to research offensive AI. Whether you are drawn to AI agent security, LLM safety, deepfakes, or breaking machine learning models, we would love to work with you! You can make a difference in the world, and we'd be honored to make that difference with you. Generous stipends are available for suitable candidates.
 
 If you are interested in joining or have any questions, please reach out to Dr. Mirsky by email: [yisroel(at)post.bgu.ac.il](mailto:yisroel(at)post.bgu.ac.il)
 
-
-
 #### References
 
-[^poison]: [https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/](https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/) 
-[^evade]: [https://skylightcyber.com/2019/07/18/cylance-i-kill-you/](https://skylightcyber.com/2019/07/18/cylance-i-kill-you/)
-[^ceo]:[https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/?sh=377033e52241](https://www.forbes.com/sites/jessedamiani/2019/09/03/a-voice-deepfake-was-used-to-scam-a-ceo-out-of-243000/?sh=377033e52241)
-[^widow]:[https://www.dailymail.co.uk/news/article-8875299/Scammer-uses-deepfake-video-swindle-nearly-300-000-California-widow.html](https://www.dailymail.co.uk/news/article-8875299/Scammer-uses-deepfake-video-swindle-nearly-300-000-California-widow.html)
-[^prn]:[https://www.technologyreview.com/2021/02/12/1018222/deepfake-revenge-porn-coming-ban/](https://www.technologyreview.com/2021/02/12/1018222/deepfake-revenge-porn-coming-ban/)
-[^cheer]:[https://www.bbc.com/news/technology-56404038](https://www.bbc.com/news/technology-56404038)
-[^impersonation]:[https://www.theguardian.com/world/2021/apr/22/european-mps-targeted-by-deepfake-video-calls-imitating-russian-opposition](https://www.theguardian.com/world/2021/apr/22/european-mps-targeted-by-deepfake-video-calls-imitating-russian-opposition)
-[^leader]: [https://www.cnn.com/2020/12/25/uk/deepfake-queen-speech-christmas-intl-gbr/index.html](https://www.cnn.com/2020/12/25/uk/deepfake-queen-speech-christmas-intl-gbr/index.html)
-[^forrester]:[https://www.darktrace.com/en/resources/research-forrester-offensive-ai.pdf](https://www.darktrace.com/en/resources/research-forrester-offensive-ai.pdf)
-[^mit]: [https://www.technologyreview.com/2021/04/08/1021696/preparing-for-ai-enabled-cyberattacks/](https://www.technologyreview.com/2021/04/08/1021696/preparing-for-ai-enabled-cyberattacks/)
+[^tay]: Microsoft, ["Learning from Tay's introduction"](https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/), March 2016.
+[^cylance]: Skylight Cyber, ["Cylance, I Kill You!"](https://skylightcyber.com/2019/07/18/cylance-i-kill-you/), July 2019.
+[^arup]: CNN, ["British engineering giant Arup revealed as $25 million deepfake scam victim"](https://edition.cnn.com/2024/05/16/tech/arup-deepfake-scam-loss-hong-kong-intl-hnk), May 2024.
+[^fbi]: FBI IC3, ["Senior US Officials Impersonated in Malicious Messaging Campaign"](https://www.ic3.gov/PSA/2025/PSA250515), Public Service Announcement I-051525-PSA, May 2025.
+[^msft]: Microsoft Threat Intelligence, ["Staying ahead of threat actors in the age of AI"](https://www.microsoft.com/en-us/security/blog/2024/02/14/staying-ahead-of-threat-actors-in-the-age-of-ai/), February 2024.
+[^gtig]: Google Threat Intelligence Group, ["GTIG AI Threat Tracker: Advances in Threat Actor Usage of AI Tools"](https://cloud.google.com/blog/topics/threat-intelligence/threat-actor-usage-of-ai-tools), November 2025.
+[^vibe]: Anthropic, ["Detecting and countering misuse of AI: August 2025"](https://www.anthropic.com/news/detecting-countering-misuse-aug-2025), August 2025.
+[^espionage]: Anthropic, ["Disrupting the first reported AI-orchestrated cyber espionage campaign"](https://www.anthropic.com/news/disrupting-AI-espionage), November 2025.
+[^lovelies]: Gressel et al., ["Love, Lies, and Language Models: Investigating AI's Role in Romance-Baiting Scams"]({{site.baseurl}}/research/love-lies/), USENIX Security 2026.
+[^owasp]: OWASP Gen AI Security Project, ["LLM01:2025 Prompt Injection"](https://genai.owasp.org/llmrisk/llm01-prompt-injection/), OWASP Top 10 for LLM Applications 2025.
+[^echoleak]: Reddy and Gujral, ["EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System"](https://arxiv.org/abs/2509.10540), 2025 (CVE-2025-32711).
+[^ncsc]: UK National Cyber Security Centre, ["The near-term impact of AI on the cyber threat"](https://www.ncsc.gov.uk/report/impact-of-ai-on-cyber-threat), January 2024.
+[^kya]: Eliav et al., ["Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents"]({{site.baseurl}}/research/know-your-agent/), ACSAC 2026.
+[^trustme]: Bernstein et al., ["Trust Me, I Know This Function: Hijacking LLM Static Analysis using Bias"]({{site.baseurl}}/research/trust-me/), NDSS 2026.

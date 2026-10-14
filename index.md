@@ -17,44 +17,30 @@ layout: home
 
 The `Offensive AI Lab` (OAI Lab) studies how adversaries use AI to enhance their attacks and exploit AI systems. The objective of the lab is to protect society by improving AI safety and by identifying and mitigating AI threats before they become mainstream. We are located in the BGU Cyber Security Research Center in Be'er Sheva Israel.
 
-<p>&nbsp;</p>
-
 ## Featured Research
 
 <p class="rhome-lead">Dedicated pages for selected projects from the lab, with papers, code, talks, and tools.</p>
 
 {% include research-tiles.html show_all=true %}
 
-<p>&nbsp;</p>
-
 ## Our Supporters
 
-This lab has is supported by the Zuckerman STEM Leadership Program
+<p class="supporters-lead">The lab is supported by the Zuckerman STEM Leadership Program and by research grants from the organizations below. Thank you for your support!</p>
 
-![image tooltip here](/assets/logos/zuckerman.png)
+<div class="logo-wall">
+  <span class="logo-tile logo-feature"><img src="{{ '/assets/logos/erc.png' | relative_url }}" alt="European Research Council (ERC)" loading="lazy"></span>
+  <span class="logo-tile logo-wide"><img class="logo-boost" src="{{ '/assets/logos/zuckerman.png' | relative_url }}" alt="Zuckerman STEM Leadership Program" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/MS.png' | relative_url }}" alt="Microsoft" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/H2020.png' | relative_url }}" alt="Horizon 2020, European Commission" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/DoE.png' | relative_url }}" alt="U.S. Department of Energy" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/MoE.png' | relative_url }}" alt="Israel Ministry of Energy" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/IIA.png' | relative_url }}" alt="Israel Innovation Authority" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/bird.png' | relative_url }}" alt="BIRD Foundation" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/CyberDir.png' | relative_url }}" alt="Israel National Cyber Directorate" loading="lazy"></span>
+  <span class="logo-tile"><img src="{{ '/assets/logos/cclp.png' | relative_url }}" alt="CCLP" loading="lazy"></span>
+  <span class="logo-tile"><img class="logo-boost" src="{{ '/assets/logos/MOST.png' | relative_url }}" alt="Israel Ministry of Innovation, Science and Technology" loading="lazy"></span>
+</div>
 
-We would also like to thank the various organizations who have supported our research by funding projects in our lab:
+## Join Our Community
 
-
-
-<p float="left">
-     <img src="{{site.baseurl}}/assets/logos/MS.png" width="200" style="margin: 15px;" />
-   <img src="{{site.baseurl}}/assets/logos/erc.png" width="350" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/H2020.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/DoE.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/MoE.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/IIA.png" width="200" style="margin: 15px;" />
-  <img src="{{site.baseurl}}/assets/logos/bird.png" width="200" style="margin: 15px;" />
-   <img src="{{site.baseurl}}/assets/logos/CyberDir.png" width="200" style="margin: 15px;" />
-   <img src="{{site.baseurl}}/assets/logos/cclp.png" width="200" style="margin: 15px;" />
-     <img src="{{site.baseurl}}/assets/logos/MOST.png" width="350" style="margin: 15px;" />
-</p>
-
-
-<p>&nbsp;</p>
-
-## Join Our Community!
-
-
-
-<p align="center"><iframe src="https://discord.com/widget?id=1013392970290045011&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></p>
+{% include discord-banner.html %}
