@@ -2,7 +2,6 @@ title: Offensive AI Lab
 url: "https://offensive-ai-lab.com"
 author:
   name: Offensive AI Research Lab
-  email: Offensive.AI.Lab@gmail.com
 description: > # this means to ignore newlines until "show_excerpts:"
   We investigate how adversaries are using and abusing AI to perform malicious tasks (LLM exploitation, defense evasion, attack automation, deepfakes, and so on). Our goal is to identify and prevent these emerging threats before they become mainstream.
 

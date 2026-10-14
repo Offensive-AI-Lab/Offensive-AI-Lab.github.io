@@ -4,8 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-For inquiries regarding the `Offensive AI Research Lab`, please contact Dr. Yisroel Mirsky 
-[yisroel(at)post.bgu.ac.il](mailto:yisroel(at)post.bgu.ac.il)
+For inquiries regarding the `Offensive AI Research Lab`, please contact Dr. Yisroel Mirsky at {% include email.html %}
 
 For information regarding the BGU Cyber Security Research Center, please see our [website](http://cyber.bgu.ac.il/).
 

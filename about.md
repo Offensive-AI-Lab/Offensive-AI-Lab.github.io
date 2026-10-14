@@ -43,7 +43,7 @@ We are a friendly group of researchers and hackers with a passion for AI and cyb
 
 We are currently seeking excellent students and post-docs who are eager to research offensive AI. Whether you are drawn to AI agent security, LLM safety, deepfakes, or breaking machine learning models, we would love to work with you! You can make a difference in the world, and we'd be honored to make that difference with you. Generous stipends are available for suitable candidates.
 
-If you are interested in joining or have any questions, please reach out to Dr. Mirsky by email: [yisroel(at)post.bgu.ac.il](mailto:yisroel(at)post.bgu.ac.il)
+If you are interested in joining or have any questions, please reach out to Dr. Mirsky by email: {% include email.html %}
 
 #### References
 

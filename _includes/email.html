@@ -1,0 +1,13 @@
+{%- comment -%}
+  Spam-resistant contact email. The address never appears in the page source: a script assembles it
+  from reversed pieces in the browser. Without JavaScript, readers see "yisroel [at] bgu [dot] ac [dot] il".
+{%- endcomment -%}
+<a class="obf-email" href="{{ '/contact/' | relative_url }}" data-u="leorsiy" data-d="li.ca.ugb">yisroel [at] bgu [dot] ac [dot] il</a><script>
+  document.querySelectorAll('.obf-email:not([data-ready])').forEach(function (a) {
+    var rev = function (s) { return s.split('').reverse().join(''); };
+    var addr = rev(a.getAttribute('data-u')) + String.fromCharCode(64) + rev(a.getAttribute('data-d'));
+    a.setAttribute('data-ready', '');
+    a.href = 'mailto:' + addr;
+    a.textContent = addr;
+  });
+</script>
