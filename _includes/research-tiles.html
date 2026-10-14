@@ -1,13 +1,16 @@
 {%- comment -%}
   Compact icon + short-title tiles linking to research pages (home page, "More research").
-  Params: items (default: all research; `featured: true` first, then newest), limit (default 7), show_all (adds a "Browse all" tile).
+  A single scrolling row: arrow buttons and edge fades appear only when tiles overflow; swipe works on touch.
+  Params: items (default: all research; `featured: true` first, then newest), limit (default 12), show_all (adds a "Browse all" tile).
   Tile art is `icon` (square image) if set, else the centre of `thumb`, else a crop of `image` at `thumb_position`.
 {%- endcomment -%}
 {%- assign pool = include.items | default: site.research | sort: "date" | reverse -%}
 {%- assign pinned = pool | where: "featured", true -%}
 {%- assign unpinned = pool | where_exp: "d", "d.featured != true" -%}
 {%- assign items = pinned | concat: unpinned -%}
-{%- assign lim = include.limit | default: 7 -%}
+{%- assign lim = include.limit | default: 12 -%}
+<div class="rcarousel" data-rcarousel>
+<button class="rcarousel-btn rcarousel-btn--prev" type="button" aria-label="Previous projects" hidden>{% include research-icon.html name="arrow-left" %}</button>
 <div class="rtiles">
   {%- for doc in items limit: lim -%}
   <a class="rtile" href="{{ doc.url | relative_url }}" title="{{ doc.title | escape }}{% if doc.subtitle %}: {{ doc.subtitle | escape }}{% endif %}">
@@ -30,3 +33,27 @@
   </a>
   {%- endif -%}
 </div>
+<button class="rcarousel-btn rcarousel-btn--next" type="button" aria-label="More projects" hidden>{% include research-icon.html name="arrow-right" %}</button>
+</div>
+<script>
+  document.querySelectorAll('[data-rcarousel]:not([data-ready])').forEach(function (c) {
+    c.setAttribute('data-ready', '');
+    var track = c.querySelector('.rtiles');
+    var prev = c.querySelector('.rcarousel-btn--prev');
+    var next = c.querySelector('.rcarousel-btn--next');
+    function update() {
+      var atStart = track.scrollLeft <= 2;
+      var atEnd = track.scrollLeft >= track.scrollWidth - track.clientWidth - 2;
+      prev.hidden = atStart;
+      next.hidden = atEnd;
+      c.classList.toggle('is-start', atStart);
+      c.classList.toggle('is-end', atEnd);
+    }
+    function page(dir) { track.scrollBy({ left: dir * track.clientWidth * 0.8, behavior: 'smooth' }); }
+    prev.addEventListener('click', function () { page(-1); });
+    next.addEventListener('click', function () { page(1); });
+    track.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+</script>

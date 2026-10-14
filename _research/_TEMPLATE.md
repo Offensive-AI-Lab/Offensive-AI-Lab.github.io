@@ -49,7 +49,8 @@ bibtex: |                               # optional "Cite This Work" box with a c
   }
 
 # featured_in: WIRED                    # optional "Featured in ..." badge on the /research/ card
-funding: erc                            # optional funding notice at the bottom: erc, microsoft, or [erc, microsoft]
+funding: erc                            # optional funding notice(s): erc, microsoft, most (Israeli Ministry of
+                                        # Innovation, Science and Technology), zuckerman, or a list, e.g. [erc, most]
 ---
 
 ## The Problem

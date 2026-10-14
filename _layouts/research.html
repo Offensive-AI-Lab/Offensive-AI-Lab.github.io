@@ -108,12 +108,18 @@
           </section>
           {%- endif -%}
 
-          {%- comment -%} funding: erc, microsoft, or a list of both {%- endcomment -%}
+          {%- comment -%} funding: one of erc, microsoft, most, zuckerman, or a list of them {%- endcomment -%}
           {%- if page.funding contains "erc" -%}
             {% include funding-erc.html %}
           {%- endif -%}
           {%- if page.funding contains "microsoft" -%}
             {% include funding-microsoft.html %}
+          {%- endif -%}
+          {%- if page.funding contains "most" -%}
+            {% include funding-most.html %}
+          {%- endif -%}
+          {%- if page.funding contains "zuckerman" -%}
+            {% include funding-zuckerman.html %}
           {%- endif -%}
 
         </div>

@@ -1003,3 +1003,91 @@ a.rpill--award:hover {
 // Crops default to the centre (inline thumb_position overrides when there is no `thumb`)
 .rcard-media,
 .rtile-icon { background-position: center; }
+
+// Tile carousel: one row that scrolls sideways (home page, "More Research")
+.rcarousel {
+  position: relative;
+  margin: 18px 0 8px;
+
+  .rtiles {
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 4px 2px 6px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar { display: none; }
+  }
+
+  .rtile {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+  }
+
+  // Fade whichever edge still has tiles beyond it
+  &:not(.is-start):not(.is-end) .rtiles {
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 56px, #000 calc(100% - 56px), transparent 100%);
+            mask-image: linear-gradient(to right, transparent 0, #000 56px, #000 calc(100% - 56px), transparent 100%);
+  }
+
+  &.is-start:not(.is-end) .rtiles {
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 64px), transparent 100%);
+            mask-image: linear-gradient(to right, #000 calc(100% - 64px), transparent 100%);
+  }
+
+  &.is-end:not(.is-start) .rtiles {
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 64px);
+            mask-image: linear-gradient(to right, transparent 0, #000 64px);
+  }
+}
+
+.rcarousel-btn {
+  position: absolute;
+  top: 38px; // vertically centred on the tile icons
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 1px solid $r-line-strong;
+  border-radius: 50%;
+  background: rgba(24, 24, 24, 0.92);
+  color: $r-ink;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  transition: border-color $r-ease, color $r-ease;
+
+  &:hover {
+    border-color: $r-accent;
+    color: #fff;
+  }
+
+  &[hidden] { display: none; }
+}
+
+.rcarousel-btn--prev { left: -6px; }
+.rcarousel-btn--next { right: -6px; }
+
+// Light plate behind funder logos drawn for white backgrounds
+.rfunding-plate {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 14px 22px;
+  border-radius: 10px;
+  background: #f5f6f8;
+
+  img {
+    display: block;
+    margin: 0;
+  }
+}
+
+// Code inside comparison panels wraps instead of scrolling sideways
+.rpanel pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
