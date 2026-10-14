@@ -18,9 +18,9 @@
               {%- for v in page.venues -%}
                 {%- if v.url -%}
                 {%- assign c0 = v.url | slice: 0 -%}
-                <a class="rpill" href="{% if c0 == '/' %}{{ v.url | relative_url }}{% else %}{{ v.url }}{% endif %}">{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</a>
+                <a class="rpill{% if v.award %} rpill--award{% endif %}" href="{% if c0 == '/' %}{{ v.url | relative_url }}{% else %}{{ v.url }}{% endif %}">{% if v.award %}{% include research-icon.html name="award" %}{% endif %}{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</a>
                 {%- else -%}
-                <span class="rpill">{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</span>
+                <span class="rpill{% if v.award %} rpill--award{% endif %}">{% if v.award %}{% include research-icon.html name="award" %}{% endif %}{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</span>
                 {%- endif -%}
               {%- endfor -%}
             </div>
@@ -47,11 +47,20 @@
             <div class="rmeta-row">
               <dt>Authors</dt>
               <dd>
-                {%- for name in page.authors -%}
-                  {%- comment -%} Link authors who have a lab member page (/first.last/). {%- endcomment -%}
-                  {%- capture member_url -%}/{{ name | downcase | replace: " ", "." }}/{%- endcapture -%}
-                  {%- assign member = site.pages | where: "url", member_url | first -%}
-                  {%- if member -%}<a href="{{ member_url | relative_url }}">{{ name }}</a>{%- else -%}{{ name }}{%- endif -%}
+                {%- for a in page.authors -%}
+                  {%- comment -%}
+                    An author is a name (linked automatically when a lab member page /first.last/ exists)
+                    or {name, url} to link somewhere else.
+                  {%- endcomment -%}
+                  {%- if a.name -%}
+                    {%- assign name = a.name -%}{%- assign author_url = a.url -%}
+                  {%- else -%}
+                    {%- assign name = a -%}
+                    {%- capture member_url -%}/{{ a | downcase | replace: " ", "." }}/{%- endcapture -%}
+                    {%- assign member = site.pages | where: "url", member_url | first -%}
+                    {%- if member -%}{%- assign author_url = member_url | relative_url -%}{%- else -%}{%- assign author_url = nil -%}{%- endif -%}
+                  {%- endif -%}
+                  {%- if author_url -%}<a href="{{ author_url }}">{{ name }}</a>{%- else -%}{{ name }}{%- endif -%}
                   {%- unless forloop.last %}, {% endunless -%}
                 {%- endfor -%}
               </dd>
@@ -99,8 +108,12 @@
           </section>
           {%- endif -%}
 
-          {%- if page.funding == "erc" -%}
+          {%- comment -%} funding: erc, microsoft, or a list of both {%- endcomment -%}
+          {%- if page.funding contains "erc" -%}
             {% include funding-erc.html %}
+          {%- endif -%}
+          {%- if page.funding contains "microsoft" -%}
+            {% include funding-microsoft.html %}
           {%- endif -%}
 
         </div>

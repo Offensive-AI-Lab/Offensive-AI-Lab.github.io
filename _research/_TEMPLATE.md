@@ -14,7 +14,9 @@ description: "Two-sentence pitch. Used on the /research/ card and as the Google 
 date: 2026-01-01                        # ordering only (newest first); never displayed
 image: /assets/images/PROJECT-hero.webp # hero background, card thumbnail, and social-media preview image
 hero_position: right center             # CSS background-position for the hero
-thumb_position: 50% 50%                 # focus point for the card and tile crops (x% y%)
+thumb: /assets/images/PROJECT-thumb.jpg # optional 16:9 card image (~960x540) with the subject centred; the
+                                        # home tile uses its centre. Without it, cards/tiles crop `image` at:
+thumb_position: 50% 50%                 # focus point for those crops (x% y%), used only when there is no `thumb`
 # icon: /assets/images/PROJECT-icon.png # optional square logo for the home tile (otherwise a crop of `image`)
 
 venues:                                 # small pills above the title; first one also shows under the tile
@@ -34,7 +36,8 @@ authors:                                # names matching a member page (/first.l
   - First Last
   - Yisroel Mirsky
 
-topics: [AI Safety, LLM Security]       # chips on the card; drive the hub's topic filter once there are 4+ projects
+topics: [AI Security]                  # the lab's research areas: AI Security, AI Safety, Attacks Using AI.
+                                        # Shown as chips and used by the hub's topic filter; keep to this short list.
 
 bibtex: |                               # optional "Cite This Work" box with a copy button
   @inproceedings{lastname2026key,
@@ -44,7 +47,8 @@ bibtex: |                               # optional "Cite This Work" box with a c
     year      = {2026}
   }
 
-funding: erc                            # optional: shows the ERC AGI-Safety funding notice at the bottom
+# featured_in: WIRED                    # optional "Featured in ..." badge on the /research/ card
+funding: erc                            # optional funding notice at the bottom: erc, microsoft, or [erc, microsoft]
 ---
 
 ## The Problem

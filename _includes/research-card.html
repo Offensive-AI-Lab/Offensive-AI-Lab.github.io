@@ -3,11 +3,17 @@
 {%- endcomment -%}
 {%- assign doc = include.doc -%}
 <a class="rcard{% if include.spotlight %} rcard--spotlight{% endif %}" href="{{ doc.url | relative_url }}" data-topics="{% for t in doc.topics %}{{ t | slugify }} {% endfor %}">
-  <div class="rcard-media" style="background-image:url('{{ doc.image | relative_url }}'); background-position:{{ doc.thumb_position | default: 'center' }};"></div>
+  {%- if doc.thumb -%}
+  <div class="rcard-media" style="background-image:url('{{ doc.thumb | relative_url }}');">
+  {%- else -%}
+  <div class="rcard-media" style="background-image:url('{{ doc.image | relative_url }}'); background-position:{{ doc.thumb_position | default: 'center' }};">
+  {%- endif -%}
+    {%- if doc.featured_in -%}<span class="rcard-press">{% include research-icon.html name="news" %}Featured in {{ doc.featured_in }}</span>{%- endif -%}
+  </div>
   <div class="rcard-body">
     {%- if doc.venues -%}
     <div class="rcard-venues">
-      {%- for v in doc.venues -%}<span class="rpill">{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</span>{%- endfor -%}
+      {%- for v in doc.venues -%}<span class="rpill{% if v.award %} rpill--award{% endif %}">{% if v.award %}{% include research-icon.html name="award" %}{% endif %}{{ v.label }}{% if v.note %} <em>{{ v.note }}</em>{% endif %}</span>{%- endfor -%}
     </div>
     {%- endif -%}
     <h2 class="rcard-title">{{ doc.title }}</h2>

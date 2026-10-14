@@ -6,7 +6,11 @@ description: "Selected research projects from the Offensive AI Lab at Ben-Gurion
 filter_min: 4 # topic filters appear once there are at least this many projects
 ---
 
-{%- assign docs = site.research | sort: "date" | reverse -%}
+{%- comment -%} Projects with `featured: true` lead (the first one gets the wide spotlight card), then newest first. {%- endcomment -%}
+{%- assign newest = site.research | sort: "date" | reverse -%}
+{%- assign pinned = newest | where: "featured", true -%}
+{%- assign unpinned = newest | where_exp: "d", "d.featured != true" -%}
+{%- assign docs = pinned | concat: unpinned -%}
 
 <section class="rhub">
 

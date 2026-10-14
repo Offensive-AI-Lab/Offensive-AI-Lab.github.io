@@ -1,15 +1,20 @@
 {%- comment -%}
   Compact icon + short-title tiles linking to research pages (home page, "More research").
-  Params: items (default: all research, newest first), limit (default 7), show_all (adds a "Browse all" tile).
-  Tile art is `icon` (square image) if set, otherwise a crop of `image` centred on `thumb_position`.
+  Params: items (default: all research; `featured: true` first, then newest), limit (default 7), show_all (adds a "Browse all" tile).
+  Tile art is `icon` (square image) if set, else the centre of `thumb`, else a crop of `image` at `thumb_position`.
 {%- endcomment -%}
-{%- assign items = include.items | default: site.research | sort: "date" | reverse -%}
+{%- assign pool = include.items | default: site.research | sort: "date" | reverse -%}
+{%- assign pinned = pool | where: "featured", true -%}
+{%- assign unpinned = pool | where_exp: "d", "d.featured != true" -%}
+{%- assign items = pinned | concat: unpinned -%}
 {%- assign lim = include.limit | default: 7 -%}
 <div class="rtiles">
   {%- for doc in items limit: lim -%}
   <a class="rtile" href="{{ doc.url | relative_url }}" title="{{ doc.title | escape }}{% if doc.subtitle %}: {{ doc.subtitle | escape }}{% endif %}">
     {%- if doc.icon -%}
     <span class="rtile-icon"><img src="{{ doc.icon | relative_url }}" alt="" loading="lazy"></span>
+    {%- elsif doc.thumb -%}
+    <span class="rtile-icon" style="background-image:url('{{ doc.thumb | relative_url }}');"></span>
     {%- else -%}
     <span class="rtile-icon" style="background-image:url('{{ doc.image | relative_url }}'); background-position:{{ doc.thumb_position | default: 'center' }};"></span>
     {%- endif -%}
