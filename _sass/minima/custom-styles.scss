@@ -3,3 +3,7 @@
 
 @import "oai/research";
 @import "oai/home";
+
+// Lab mark before the site title.
+.site-title { display: inline-flex; align-items: center; gap: 0.4em; }
+.site-logo { height: 0.85em; width: auto; }
