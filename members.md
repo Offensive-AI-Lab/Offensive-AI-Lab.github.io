@@ -167,7 +167,7 @@ permalink: /members/
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
     </a>
     <p>
-      <a style="text-decoration: none">Or Eliav</a>
+      <a style="text-decoration: none">Or Eliav [MSc]</a>
     </p>
   </div>
 
@@ -176,7 +176,25 @@ permalink: /members/
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
     </a>
     <p>
-      <a style="text-decoration: none">Eyal Lenga</a>
+      <a style="text-decoration: none">Eyal Lenga [MSc]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <a href="{{site.baseurl}}/noam.marom/">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
+    </a>
+    <p>
+      <a href="{{site.baseurl}}/noam.marom/" style="text-decoration: none">Noam Marom [MSc]</a>
+    </p>
+  </div>
+
+  <div style="flex: 0 0 33.333%; text-align: center;">
+    <a href="{{site.baseurl}}/beny.boshoer/">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
+    </a>
+    <p>
+      <a href="{{site.baseurl}}/beny.boshoer/" style="text-decoration: none">Beny Boshoer [MSc]</a>
     </p>
   </div>
 
@@ -193,7 +211,7 @@ permalink: /members/
       <img width="200" height="auto" src="{{site.baseurl}}/assets/members/fadi.amun.jpg">
     </a>
     <p>
-      <a href="{{site.baseurl}}/fadi.amun/" style="text-decoration: none">Fadi Amun [BSc]</a>
+      <a href="{{site.baseurl}}/fadi.amun/" style="text-decoration: none">Fadi Amun [MSc]</a>
     </p>
   </div>
 
