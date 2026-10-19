@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /gilad.gressel/
+title: "Gilad Gressel"
+description: "Gilad Gressel is a PhD student who focuses on the cyber-security implications of advanced AI systems."
 ---
 
-<font size="5">Gilad Gressel</font>
+<h1 class="member-name">Gilad Gressel</h1>
 
 ![image]({{site.baseurl}}/assets/members/gilad.gressel.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

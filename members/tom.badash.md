@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /tom.badash/
+title: "Tom Badash"
+description: "Tom Badash is a researcher and M.Sc. student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev."
 ---
 
-<font size="5">Tom Badash</font>
+<h1 class="member-name">Tom Badash</h1>
 
 ![image]({{site.baseurl}}/assets/members/tom.badash.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

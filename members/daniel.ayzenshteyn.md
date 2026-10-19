@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /daniel.ayzenshteyn/
+title: "Daniel Ayzenshteyn"
+description: "Daniel Ayzenshteyn is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of…"
 ---
 
- <font size="5">Daniel Ayzenshteyn</font>
+ <h1 class="member-name">Daniel Ayzenshteyn</h1>
 
 ![image]({{site.baseurl}}/assets/members/daniel.ayzenshteyn.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

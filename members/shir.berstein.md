@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /shir.bernstein/
+title: "Shir Bernstein"
+description: "Shir Bernstein is a Master’s student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev."
 ---
 
-<font size="5">Shir Bernstein</font>
+<h1 class="member-name">Shir Bernstein</h1>
 
 ![image]({{site.baseurl}}/assets/members/shir.bernstein.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

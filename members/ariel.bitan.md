@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /ariel.bitan/
+title: "Ariel Bitan"
+description: "Ariel Bitan is a researcher and master’s degree student in the Faculty of Computer and Information Science at Ben-Gurion University of the Negev."
 ---
 
-<font size="5">Ariel Bitan</font>
+<h1 class="member-name">Ariel Bitan</h1>
 
 ![image]({{site.baseurl}}/assets/members/ariel.bitan.png){: style="float: left; margin-right:10px" width="250px"} 
 

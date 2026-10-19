@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /shir.rozenfeld/
+title: "Shir Rozenfeld"
+description: "Shir Rozenfeld is a PhD candidate at the Stein Faculty of Computer and Information Science at Ben-Gurion University of the Negev, researching AGI safety."
 ---
 
-<font size="5">Shir Rozenfeld</font>
+<h1 class="member-name">Shir Rozenfeld</h1>
 
 ![image]({{site.baseurl}}/assets/members/shir.rozenfeld.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /roy.weiss/
+title: "Roy Weiss"
+description: "Roy Weiss is a researcher and a master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
- <font size="5">Roy Weiss</font>
+ <h1 class="member-name">Roy Weiss</h1>
 
 ![image]({{site.baseurl}}/assets/members/roy.weiss.jpeg){: style="float: left; margin-right:10px" width="250px"} 
 

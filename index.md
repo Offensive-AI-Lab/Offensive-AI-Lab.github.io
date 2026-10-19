@@ -6,6 +6,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
+title: "Offensive AI & LLM Security Research"
+description: "Offensive AI Lab at Ben-Gurion University researches AI-powered cyberattacks, AI agent security, prompt injection, adversarial machine learning, and LLM safety."
 ---
 
 <svg id="d3banner"></svg>

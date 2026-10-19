@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /itay.zloczower/
+title: "Itay Zloczower"
+description: "Itay Zloczower is a researcher and master's degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
-<font size="5">Itay Zloczower</font>
+<h1 class="member-name">Itay Zloczower</h1>
 
 ![image]({{site.baseurl}}/assets/members/itay.zloczower.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

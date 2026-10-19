@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /shmulik.froimovich/
+title: "Shmulik Froimovich"
+description: "Shmulik Froimovich is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of…"
 ---
 
- <font size="5">Shmulik Froimovich</font>
+ <h1 class="member-name">Shmulik Froimovich</h1>
 
 ![image]({{site.baseurl}}/assets/members/shmulik.froimovich.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

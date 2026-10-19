@@ -1,0 +1,46 @@
+{%- comment -%}
+  Extra structured data (JSON-LD) for search engines, alongside what jekyll-seo-tag emits:
+  - home page: the lab as a research organization within Ben-Gurion University
+  - members page: the PI as a person working for the lab
+{%- endcomment -%}
+{%- assign lab_id = '/#lab' | absolute_url -%}
+{%- if page.url == "/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "@id": {{ lab_id | jsonify }},
+  "name": "Offensive AI Lab",
+  "alternateName": "Offensive AI Research Lab",
+  "url": {{ '/' | absolute_url | jsonify }},
+  "logo": {{ site.logo | absolute_url | jsonify }},
+  "image": {{ '/assets/brand/og-default.jpg' | absolute_url | jsonify }},
+  "description": {{ site.description | strip | jsonify }},
+  "foundingDate": "2020",
+  "founder": { "@type": "Person", "name": "Yisroel Mirsky", "url": "https://ymirsky.github.io/" },
+  "parentOrganization": { "@type": "CollegeOrUniversity", "name": "Ben-Gurion University of the Negev", "url": "https://www.bgu.ac.il/en/" },
+  "address": { "@type": "PostalAddress", "streetAddress": "77 HaEnergia St.", "addressLocality": "Be'er Sheva", "postalCode": "8470912", "addressCountry": "IL" },
+  "knowsAbout": ["Offensive AI", "AI security", "LLM security", "AI agent security", "Prompt injection", "Adversarial machine learning", "Deepfakes", "AI safety"],
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>
+{%- elsif page.url == "/members/" -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Yisroel Mirsky",
+  "honorificPrefix": "Dr.",
+  "jobTitle": "Head of the Offensive AI Research Lab",
+  "image": {{ '/assets/members/yisroel.mirsky.png' | absolute_url | jsonify }},
+  "url": "https://ymirsky.github.io/",
+  "worksFor": { "@type": "ResearchOrganization", "@id": {{ lab_id | jsonify }}, "name": "Offensive AI Lab" },
+  "affiliation": { "@type": "CollegeOrUniversity", "name": "Ben-Gurion University of the Negev", "url": "https://www.bgu.ac.il/en/" },
+  "sameAs": [
+    "https://ymirsky.github.io/",
+    "https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ",
+    "https://www.bgu.ac.il/en/people/yisroel/"
+  ]
+}
+</script>
+{%- endif -%}

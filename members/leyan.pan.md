@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /leyan.pan/
+title: "Leyan Pan"
+description: "Leyan Pan is a graduate student researcher at the Georgia Institute of Technology."
 ---
 
- <font size="5">Leyan Pan</font>
+ <h1 class="member-name">Leyan Pan</h1>
 
 ![image]({{site.baseurl}}/assets/members/leyan.pan.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

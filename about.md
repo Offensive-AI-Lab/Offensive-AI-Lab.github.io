@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 eyebrow: Our mission
+description: "What offensive AI is, real-world AI-powered attacks from deepfake fraud to AI-run espionage, and how the Offensive AI Lab at Ben-Gurion University counters them."
 lead: "Why offensive AI matters, and what our lab is doing about it."
 ---
 

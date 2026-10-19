@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /ruben.chocron/
+title: "Ruben Chocron"
+description: "Ruben Chocron is a researcher and a master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of…"
 ---
 
- <font size="5">Ruben Chocron</font>
+ <h1 class="member-name">Ruben Chocron</h1>
 
 ![image]({{site.baseurl}}/assets/members/ruben.chocron.png){: style="float: left; margin-right:10px" width="250px"}
 

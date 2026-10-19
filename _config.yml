@@ -1,10 +1,19 @@
 title: Offensive AI Lab
 url: "https://offensive-ai-lab.com"
 logo: /assets/brand/oai-avatar-dark-1024.png
-author:
-  name: Offensive AI Research Lab
+author:               # also tells search engines (structured data) that the lab is an organization
+  name: Offensive AI Lab
+  type: Organization
+  url: "https://offensive-ai-lab.com"
+# Lab statement: shown in the footer, and the fallback search description for pages without their own
+# (every main page and profile sets one; the home page's keyword-focused one is in index.md).
 description: > # this means to ignore newlines until "show_excerpts:"
   We investigate how adversaries are using and abusing AI to perform malicious tasks (LLM exploitation, defense evasion, attack automation, deepfakes, and so on). Our goal is to identify and prevent these emerging threats before they become mainstream.
+# Profiles that represent the lab (structured data `sameAs` on the home and About pages).
+social:
+  name: Offensive AI Lab
+  links:
+    - https://github.com/Offensive-AI-Lab
 
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -67,9 +76,19 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: /assets/brand/og-default.jpg   # social-media preview for pages without their own image
+  - scope:
+      path: ""
       type: research
     values:
       layout: research
+      seo:
+        type: ScholarlyArticle              # structured data: research pages are scholarly articles
+  - scope:
+      path: "members"
+    values:
+      profile: true                         # member profiles keep their own simple header
 
 # Build settings
 theme: minima

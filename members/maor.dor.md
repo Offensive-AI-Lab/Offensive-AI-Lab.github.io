@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /maor.dor/
+title: "Maor Dor"
+description: "Maor Biton Dor is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
- <font size="5">Maor Dor</font>
+ <h1 class="member-name">Maor Dor</h1>
 
 ![image]({{site.baseurl}}/assets/members/maor.dor.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

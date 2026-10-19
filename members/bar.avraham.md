@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /bar.avraham/
+title: "Bar Avraham"
+description: "Bar Avraham is a masters student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev."
 ---
 
- <font size="5">Bar Avraham</font>
+ <h1 class="member-name">Bar Avraham</h1>
 
 ![image]({{site.baseurl}}/assets/members/bar.avraham.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

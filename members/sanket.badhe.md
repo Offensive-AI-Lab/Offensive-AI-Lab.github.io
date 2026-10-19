@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /sanket.badhe/
+title: "Sanket Badhe"
+description: "Sanket Badhe is a researcher in the Offensive AI Lab. He completed his master's degree in data science from Rutgers University."
 ---
 
- <font size="5">Sanket Badhe</font>
+ <h1 class="member-name">Sanket Badhe</h1>
 
 ![image]({{site.baseurl}}/assets/members/sanket.badhe.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

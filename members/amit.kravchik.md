@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /amit.kravchik/
+title: "Amit Kravchik"
+description: "Amit Kravchik is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
- <font size="5">Amit Kravchik</font>
+ <h1 class="member-name">Amit Kravchik</h1>
 
 ![image]({{site.baseurl}}/assets/members/amit.kravchik.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

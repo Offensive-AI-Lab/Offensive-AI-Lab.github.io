@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /tapdig.maharramli/
+title: "Tapdig Maharramli"
+description: "Tapdig Maharramli is a research assistant in the labs."
 ---
 
- <font size="5">Tapdig Maharramli</font>
+ <h1 class="member-name">Tapdig Maharramli</h1>
 
 ![image]({{site.baseurl}}/assets/members/tapdig.maharramli.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

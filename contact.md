@@ -3,6 +3,7 @@ layout: page
 title: Contact
 permalink: /contact/
 eyebrow: Get in touch
+description: "Contact the Offensive AI Lab at Ben-Gurion University in Be'er Sheva, Israel, about research, collaborations, or joining the lab."
 lead: "Questions, collaborations, or interested in joining the lab? We'd love to hear from you."
 ---
 

@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /moshe.levy/
+title: "Moshe Levy"
+description: "Moshe Levy is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev."
 ---
 
- <font size="5">Moshe Levy</font>
+ <h1 class="member-name">Moshe Levy</h1>
 
 ![image]({{site.baseurl}}/assets/members/moshe.levy.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

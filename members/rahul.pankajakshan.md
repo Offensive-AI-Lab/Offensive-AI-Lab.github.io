@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /rahul.pankajakshan/
+title: "Rahul Pankajakshan"
+description: "Rahul Pankajakshan is a PhD student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the Negev."
 ---
 
-<font size="5">Rahul Pankajakshan</font>
+<h1 class="member-name">Rahul Pankajakshan</h1>
 
 ![image]({{site.baseurl}}/assets/members/rahul.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

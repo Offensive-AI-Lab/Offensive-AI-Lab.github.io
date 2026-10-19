@@ -8,7 +8,7 @@ layout: default
 {%- endcomment -%}
 <article class="post rpage">
 
-  {%- if page.title -%}
+  {%- if page.title and page.profile != true -%}
   <header class="rhub-head">
     {%- if page.eyebrow -%}<p class="reyebrow">{{ page.eyebrow }}</p>{%- endif -%}
     <h1 class="rhub-title">{{ page.title | escape }}</h1>

@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /fred.grabovski/
+title: "Fred Grabovski"
+description: "Fred Grabovski is a researcher and a master's degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of…"
 ---
 
- <font size="5">Fred Grabovski</font>
+ <h1 class="member-name">Fred Grabovski</h1>
 
 ![image]({{site.baseurl}}/assets/members/fred.grabovski.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

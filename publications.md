@@ -3,6 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 eyebrow: Papers · Talks · Press
+description: "Papers, talks, and press from the Offensive AI Lab on LLM and AI agent security, prompt injection, deepfakes, and adversarial ML at USENIX, NDSS, and ICLR."
 lead: 'Selected papers, talks, and press coverage from the lab. For a complete, up-to-date list, see Dr. Mirsky&rsquo;s <a href="https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&amp;hl=en">Google Scholar</a>.'
 ---
 

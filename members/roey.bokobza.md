@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /roey.bokobza/
+title: "Roey Bokobza"
+description: "Roey Bokobza is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
- <font size="5">Roey Bokobza</font>
+ <h1 class="member-name">Roey Bokobza</h1>
 
 ![image]({{site.baseurl}}/assets/members/roey.bokobza.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

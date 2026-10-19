@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /fadi.amun/
+title: "Fadi Amun"
+description: "Fadi Amun is a research assistant and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of…"
 ---
 
-<font size="5">Fadi Amun</font>
+<h1 class="member-name">Fadi Amun</h1>
 
 ![image]({{site.baseurl}}/assets/members/fadi.amun.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

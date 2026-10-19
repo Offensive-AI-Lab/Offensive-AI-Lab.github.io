@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /guy.frankovitz/
+title: "Guy Frankovitz"
+description: "Guy Frankovits is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
- <font size="5">Guy Frankovitz</font>
+ <h1 class="member-name">Guy Frankovitz</h1>
 
 ![image]({{site.baseurl}}/assets/members/guy.frankovitz.jpg){: style="float: left; margin-right:10px" width="250px"} 
 

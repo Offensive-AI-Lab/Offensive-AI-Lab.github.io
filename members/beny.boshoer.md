@@ -1,9 +1,11 @@
 ---
 layout: page
 permalink: /beny.boshoer/
+title: "Beny Boshoer"
+description: "Beny Boshoer is a researcher and master’s degree student in the Department of Software and Information Systems Engineering at Ben-Gurion University of the…"
 ---
 
-<font size="5">Beny Boshoer</font>
+<h1 class="member-name">Beny Boshoer</h1>
 
 ![image]({{site.baseurl}}/assets/members/beny.boshoer.png){: style="float: left; margin-right:10px" width="250px"}
 

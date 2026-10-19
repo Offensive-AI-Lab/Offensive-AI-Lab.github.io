@@ -1,0 +1,23 @@
+---
+# Project sites deployed from their own repos (served at /<repo>/ on this domain) aren't in the main
+# sitemap; this lists every research entry that sets `redirect_to` to one. Referenced from robots.txt.
+layout: null
+permalink: /sitemap-projects.xml
+sitemap: false
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- for doc in site.research -%}
+  {%- if doc.redirect_to -%}
+  {%- assign c0 = doc.redirect_to | slice: 0 -%}
+  {%- if c0 == "/" %}
+  <url>
+    <loc>{{ doc.redirect_to | absolute_url }}</loc>
+    {%- if doc.last_modified_at %}
+    <lastmod>{{ doc.last_modified_at | date_to_xmlschema }}</lastmod>
+    {%- endif %}
+  </url>
+  {%- endif -%}
+  {%- endif -%}
+{%- endfor %}
+</urlset>
