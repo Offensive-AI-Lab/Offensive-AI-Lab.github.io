@@ -1,0 +1,113 @@
+{%- comment -%}
+  Re-renders the Markdown list under "## Academic Articles" as a year-grouped, filterable list.
+  The original <ul> stays in the HTML (other sites parse it) and remains visible if scripts don't run.
+  Per item: first link = title; `code` spans = badges; a "Project page" link = project.
+{%- endcomment -%}
+<script>
+(function () {
+  var heading = document.getElementById('academic-articles');
+  var ul = heading && heading.nextElementSibling;
+  while (ul && ul.tagName !== 'UL' && !/^H[1-3]$/.test(ul.tagName)) ul = ul.nextElementSibling;
+  if (!ul || ul.tagName !== 'UL') return;
+
+  var COLLAPSED = 12;
+  var clean = function (s) { return (s || '').replace(/[\u200e\u200f]/g, '').replace(/\s+/g, ' ').trim(); };
+
+  var pubs = Array.prototype.map.call(ul.querySelectorAll(':scope > li'), function (li) {
+    var links = li.querySelectorAll('a');
+    if (!links.length) return null;
+    var rest = li.cloneNode(true);
+    var restLinks = rest.querySelectorAll('a');
+    var project = null;
+    restLinks[0].remove();
+    for (var i = 1; i < links.length; i++) {
+      if (/project page/i.test(links[i].textContent)) { project = project || links[i].href; restLinks[i].remove(); }
+    }
+    var badges = Array.prototype.map.call(rest.querySelectorAll('code'), function (c) { return clean(c.textContent); });
+    Array.prototype.forEach.call(rest.querySelectorAll('code'), function (c) { c.remove(); });
+    var details = clean(rest.textContent).replace(/^[\s.,;:]+/, '').replace(/[\s&,;.]+$/, '');
+    var years = (details.match(/\b(19[89]\d|20\d\d)\b/g) || []).map(Number);
+    return {
+      title: clean(links[0].textContent).replace(/[.\s]+$/, ''),
+      url: links[0].href, details: details, badges: badges, project: project,
+      year: years.length ? Math.max.apply(null, years) : null
+    };
+  }).filter(Boolean);
+
+  var FILTERS = [
+    { id: 'all', label: 'All', test: function () { return true; } },
+    { id: 'top', label: 'A* venues', test: function (p) { return p.badges.some(function (b) { return /A\*/.test(b); }); } },
+    { id: 'award', label: 'Awards', test: function (p) { return p.badges.some(function (b) { return /award/i.test(b); }); } },
+    { id: 'project', label: 'Project pages', test: function (p) { return !!p.project; } }
+  ];
+  var state = { filter: 'all', expanded: false };
+
+  function el(tag, cls, kids) {
+    var n = document.createElement(tag);
+    if (cls) n.className = cls;
+    (kids || []).forEach(function (k) { if (k) n.appendChild(typeof k === 'string' ? document.createTextNode(k) : k); });
+    return n;
+  }
+  function link(href, cls, kids) { var a = el('a', cls, kids); a.href = href; return a; }
+
+  var view = el('div', 'pub-view');
+  var toolbar = el('div', 'rfilters pub-toolbar');
+  toolbar.setAttribute('role', 'toolbar');
+  toolbar.setAttribute('aria-label', 'Filter publications');
+  var groups = el('div', 'pub-groups');
+  var more = el('button', 'pub-more');
+  more.type = 'button';
+
+  FILTERS.forEach(function (f) {
+    var n = pubs.filter(f.test).length;
+    if (!n) return;
+    var b = el('button', 'rfilter', [f.label + ' ', el('span', 'pub-count', [String(n)])]);
+    b.type = 'button';
+    b.setAttribute('data-filter', f.id);
+    b.addEventListener('click', function () { state.filter = f.id; state.expanded = false; render(); });
+    toolbar.appendChild(b);
+  });
+  more.addEventListener('click', function () { state.expanded = !state.expanded; render(); });
+
+  function render() {
+    var f = FILTERS.filter(function (x) { return x.id === state.filter; })[0];
+    var matches = pubs.filter(f.test);
+    var shown = state.expanded ? matches : matches.slice(0, COLLAPSED);
+    Array.prototype.forEach.call(toolbar.children, function (b) {
+      b.classList.toggle('is-active', b.getAttribute('data-filter') === state.filter);
+    });
+    groups.innerHTML = '';
+    var byYear = [];
+    shown.forEach(function (p) {
+      var label = p.year ? String(p.year) : 'Other';
+      var g = byYear[byYear.length - 1];
+      if (!g || g.label !== label) byYear.push(g = { label: label, items: [] });
+      g.items.push(p);
+    });
+    byYear.forEach(function (g) {
+      var list = el('ul', 'pub-items');
+      g.items.forEach(function (p) {
+        var badges = p.badges.map(function (b) {
+          return el('span', /award/i.test(b) ? 'rpill rpill--award' : 'rpill', [b]);
+        });
+        if (p.project) badges.push(link(p.project, 'rpill pub-project', ['Project page →']));
+        list.appendChild(el('li', 'pub', [
+          link(p.url, 'pub-title', [p.title]),
+          el('p', 'pub-meta', [p.details]),
+          badges.length ? el('div', 'pub-badges', badges) : null
+        ]));
+      });
+      groups.appendChild(el('section', 'pub-group', [el('h3', 'pub-year', [g.label]), list]));
+    });
+    more.hidden = matches.length <= COLLAPSED;
+    more.textContent = state.expanded ? 'Show fewer' : 'Show all ' + matches.length + ' publications';
+  }
+
+  view.appendChild(toolbar);
+  view.appendChild(groups);
+  view.appendChild(more);
+  ul.parentNode.insertBefore(view, ul.nextSibling);
+  ul.hidden = true;
+  render();
+})();
+</script>

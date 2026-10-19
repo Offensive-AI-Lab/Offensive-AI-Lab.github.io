@@ -2,18 +2,27 @@
 layout: page
 title: Members
 permalink: /members/
+eyebrow: The team
+lead: "The researchers, students, and alumni of the Offensive AI Research Lab."
 ---
 
-<center> <h3>Principal Investigator</h3> </center>
+## Principal Investigator
 
-<p align="center">   <a href="https://ymirsky.github.io/">
-<img width="200" height="auto" src="{{site.baseurl}}/assets/members/yisroel.mirsky.png"> 
-</a><p align="center">
-    <a href="https://ymirsky.github.io/"
-       style="text-decoration: none"> Dr. Yisroel Mirsky </a></p> </p> 
+<div class="pi-card">
+  <a class="pi-photo" href="https://ymirsky.github.io/"><img src="{{site.baseurl}}/assets/members/yisroel.mirsky.png" alt="Dr. Yisroel Mirsky"></a>
+  <div class="pi-body">
+    <h3 class="pi-name"><a href="https://ymirsky.github.io/">Dr. Yisroel Mirsky</a></h3>
+    <p class="pi-role">Head of the Offensive AI Research Lab</p>
+    <p class="pi-bio">Tenured Assistant Professor and Zuckerman Faculty Scholar in the Institute of Software Systems and Security at Ben-Gurion University, an ERC Starting Grant (2025) recipient, and a CoSAI board member.</p>
+    <div class="pi-links">
+      <a class="rbtn rbtn--primary" href="https://ymirsky.github.io/">Personal website</a>
+      <a class="rbtn" href="https://scholar.google.co.il/citations?user=A0LUsmUAAAAJ&amp;hl=en">Google Scholar</a>
+    </div>
+  </div>
+</div>
 
 
-<center> <h3>Graduate Students</h3> </center>
+## Graduate Students
 
 <!-- Graduate Students: single auto-wrapping grid. Cards display in document order and
      rewrap automatically (3 per row). To add a member, paste one card block below at the
@@ -118,9 +127,7 @@ permalink: /members/
   </div>
 
   <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/ortal.parpara/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
-    </a>
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/ortal.parpara.png" alt="Ortal Parpara">
     <p>
       <a style="text-decoration: none">Ortal Parpara [MSc]</a>
     </p>
@@ -163,9 +170,7 @@ permalink: /members/
   </div>
 
   <div style="flex: 0 0 33.333%; text-align: center;">
-    <a href="{{site.baseurl}}/or.eliav/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
-    </a>
+    <img width="200" height="auto" src="{{site.baseurl}}/assets/members/or.eliav.png" alt="Or Eliav">
     <p>
       <a style="text-decoration: none">Or Eliav [MSc]</a>
     </p>
@@ -191,7 +196,7 @@ permalink: /members/
 
   <div style="flex: 0 0 33.333%; text-align: center;">
     <a href="{{site.baseurl}}/beny.boshoer/">
-      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/blank.portrait.png">
+      <img width="200" height="auto" src="{{site.baseurl}}/assets/members/beny.boshoer.png" alt="Beny Boshoer">
     </a>
     <p>
       <a href="{{site.baseurl}}/beny.boshoer/" style="text-decoration: none">Beny Boshoer [MSc]</a>
@@ -201,7 +206,7 @@ permalink: /members/
 </div>
 
 
-<center> <h3>Research Assistants and Associates</h3> </center>
+## Research Assistants and Associates
 
 <!-- Research Assistants: same auto-wrapping grid. -->
 <div class="members-grid container" style="display: flex; flex-wrap: wrap; justify-content: center;">
@@ -218,7 +223,7 @@ permalink: /members/
 </div>
 
 
-<center> <h3>Alumni</h3> </center>
+## Alumni
 
 <!-- Alumni: same auto-wrapping grid. Newest graduation year first. -->
 <div class="members-grid container" style="display: flex; flex-wrap: wrap; justify-content: center;">

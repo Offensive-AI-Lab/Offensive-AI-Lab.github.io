@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+eyebrow: Our mission
+lead: "Why offensive AI matters, and what our lab is doing about it."
 ---
 
 ## What is Offensive AI?

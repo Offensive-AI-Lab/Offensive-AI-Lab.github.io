@@ -1,0 +1,263 @@
+// Top-level pages (About, Publications, Members, Contact) share the /research/ hub look:
+// the .rhub-head header (from _layouts/page.html) and .research-body section headings.
+
+.rpage .rhub-head { margin-bottom: 8px; }
+.rpage .research-body > h2:first-child { margin-top: 1.4em; }
+
+// ---------------------------------------------------------------- publications
+
+// Plain list (shown until the script renders, or if scripts are off)
+#academic-articles + ul > li { margin-bottom: 0.9em; color: #a8a8a8; }
+
+.pub-toolbar { margin: 4px 0 6px; }
+
+.pub-count {
+  margin-left: 4px;
+  opacity: 0.6;
+  font-size: 0.85em;
+}
+
+.pub-group {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+  gap: 0 20px;
+  padding-top: 18px;
+  border-top: 1px solid $r-line;
+
+  & + & { margin-top: 6px; }
+
+  @include media-query($on-palm) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.research-body .pub-year {
+  margin: 18px 0 0;
+  color: $r-accent;
+  font-family: $code-font-family;
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  @include media-query($on-palm) { margin: 6px 0 0; }
+}
+
+.pub-items {
+  margin: 0;
+  list-style: none;
+}
+
+.pub {
+  padding: 16px 0;
+
+  & + & { border-top: 1px solid $r-line; }
+}
+
+.pub-title {
+  color: $r-ink;
+  font-size: 1.02rem;
+  font-weight: 600;
+  line-height: 1.45;
+
+  &:visited { color: $r-ink; }
+  &:hover { color: #fff; }
+}
+
+.pub-meta {
+  margin: 6px 0 0;
+  color: $r-muted;
+  font-size: 14.5px;
+  line-height: 1.55;
+}
+
+.pub-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+
+  .rpill { font-size: 11px; }
+}
+
+a.pub-project {
+  border-color: $r-line-strong;
+  background: transparent;
+
+  &, &:visited { color: $r-ink; }
+
+  &:hover { border-color: $r-accent; color: #fff; }
+}
+
+.pub-more {
+  display: block;
+  margin: 22px auto 0;
+  padding: 9px 20px;
+  border: 1px solid $r-line-strong;
+  border-radius: 999px;
+  background: transparent;
+  color: $r-ink;
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: border-color $r-ease;
+
+  &:hover { border-color: $r-accent; }
+  &[hidden] { display: none; }
+}
+
+// Talks: two videos side by side, stacked on phones
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 18px 0;
+
+  @include media-query($on-palm) { grid-template-columns: minmax(0, 1fr); }
+
+  .rvideo { margin: 0; max-width: none; }
+}
+
+// In the Media
+.featured-in {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px 26px;
+  margin: 18px 0 26px;
+  padding: 18px 22px;
+  border: 1px solid $r-line;
+  border-radius: 12px;
+  background: $r-surface;
+
+  a {
+    display: inline-flex;
+    opacity: 0.65;
+    transition: opacity $r-ease;
+
+    &:hover { opacity: 1; }
+  }
+
+  img {
+    display: block;
+    width: auto;
+    height: 24px;
+  }
+}
+
+.featured-in-label {
+  color: $r-muted;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.press-item {
+  padding: 16px 0;
+  border-top: 1px solid $r-line;
+
+  .research-body & h3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+    margin: 0;
+    font-size: 1.02rem;
+    font-weight: 600;
+  }
+
+  .rpress { margin: 10px 0 0; }
+}
+
+.press-project {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+// ---------------------------------------------------------------- members
+
+.members-grid {
+  img {
+    border: 1px solid $r-line-strong;
+    border-radius: 16px;
+    transition: transform $r-ease, border-color $r-ease, box-shadow $r-ease;
+  }
+
+  a:hover img {
+    transform: translateY(-3px);
+    border-color: rgba($r-accent, 0.6);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+  }
+
+  p { color: $r-ink; font-size: 15px; }
+
+  p a, p a:visited { color: $r-ink; }
+  p a:hover { color: #fff; }
+}
+
+// PI feature card: photo beside name, role, short bio, and links
+.pi-card {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin: 18px 0 8px;
+  padding: 24px;
+  border: 1px solid $r-line;
+  border-radius: 16px;
+  background: $r-surface;
+
+  @include media-query($on-palm) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.pi-photo {
+  flex: 0 0 auto;
+
+  img {
+    display: block;
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border: 1px solid $r-line-strong;
+    border-radius: 16px;
+  }
+}
+
+.research-body .pi-name {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  a, a:visited { color: $r-ink; }
+  a:hover { color: #fff; }
+}
+
+.pi-role {
+  margin: 4px 0 12px;
+  color: $r-accent;
+  font-size: 14.5px;
+  font-weight: 600;
+}
+
+.pi-bio {
+  color: #b0b0b0;
+  font-size: 15px;
+}
+
+.pi-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+// ---------------------------------------------------------------- contact
+
+.contact-map {
+  display: block;
+  width: 100%;
+  height: 380px;
+  margin: 16px 0 8px;
+  border: 1px solid $r-line;
+  border-radius: 12px;
+}
