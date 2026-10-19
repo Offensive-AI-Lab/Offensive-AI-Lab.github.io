@@ -6,8 +6,6 @@ permalink: /contact/
 
 For inquiries regarding the `Offensive AI Research Lab`, please contact Dr. Yisroel Mirsky at {% include email.html %}
 
-For information regarding the BGU Cyber Security Research Center, please see our [website](http://cyber.bgu.ac.il/).
-
 ### Address
 
 We are located on the third floor of building #1 in the Gav Yam Advanced Technology Park, Israel.<br/> Our full address is:
